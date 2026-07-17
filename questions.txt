@@ -1,2 +1,1761 @@
-
-hii
+TYPE: SPOT_ERROR
+PARTS: Each of the boys in the class | have submitted | their assignment | before the deadline | No error
+ANSWER: B
+RULE: 1
+EXPLAIN: "Each" always takes a singular verb, so "have submitted" should be "has submitted".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The manager insisted that | both the clerk as well as the cashier | are responsible | for the missing cash | No error
+ANSWER: C
+RULE: 17
+EXPLAIN: With "as well as", the verb agrees only with the first subject ("the clerk"), so it should be "is responsible".
+%%%
+TYPE: SPOT_ERROR
+PARTS: This is the officer | whom everybody says | will be transferred | to the Chennai branch | No error
+ANSWER: B
+RULE: 3
+EXPLAIN: "Whom" is wrongly used, as it functions as the subject of "will be transferred"; it should be "who everybody says".
+%%%
+TYPE: SPOT_ERROR
+PARTS: If the bank had reduced | the interest rate earlier | more customers will apply | for home loans | No error
+ANSWER: C
+RULE: 4
+EXPLAIN: The if-clause is in Past Perfect (Type III), so the main clause needs "would have applied", not "will apply".
+%%%
+TYPE: SPOT_ERROR
+PARTS: One of the reasons | for the delay in loan approval | are the incomplete documents | submitted by the applicant | No error
+ANSWER: C
+RULE: 5
+EXPLAIN: "One of the + plural noun" as the subject (no relative pronoun) takes a singular verb, so it should be "is the incomplete documents".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The bank released | a two-hundred-crore | rupees loan | to the textile sector | No error
+ANSWER: B
+RULE: 6
+EXPLAIN: In "Number + Unit + Noun", the unit stays singular, so "two-hundred-crore" is correct, but the compound should read "two-hundred-crore-rupee loan" â€” the unit "rupees" wrongly takes the plural before the noun "loan".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He has been working | in this bank | since five years | and plans to retire soon | No error
+ANSWER: C
+RULE: 9
+EXPLAIN: A point in time period is expressed with "for", not "since"; it should be "for five years".
+%%%
+TYPE: SPOT_ERROR
+PARTS: By the time the auditor arrived | the accountant already left | the office with all the files | in his bag | No error
+ANSWER: B
+RULE: 10
+EXPLAIN: The earlier of two past actions needs the Past Perfect, so it should be "had already left".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The manager appreciated | me completing | the audit report | ahead of schedule | No error
+ANSWER: B
+RULE: 11
+EXPLAIN: A possessive adjective, not an objective pronoun, should precede a gerund; it should be "my completing".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Never before | the bank has witnessed | such a huge rush | of loan applicants | No error
+ANSWER: B
+RULE: 12
+EXPLAIN: When a sentence begins with a negative adverb like "never", the Law of Inversion applies, so it should be "has the bank witnessed".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The clerk goes to | the church every Sunday | but yesterday he went | to church to repair the clock | No error
+ANSWER: B
+RULE: 13
+EXPLAIN: Going to church for worship (its primary purpose) takes no article; it should be "goes to church every Sunday". (Part D is correct, since repairing the clock is a secondary purpose and takes "the".)
+%%%
+TYPE: SPOT_ERROR
+PARTS: Hardly had the meeting begun | than the power went off | plunging the entire office | into darkness | No error
+ANSWER: B
+RULE: 14
+EXPLAIN: "Hardly" is always followed by "when", never by "than"; it should be "when the power went off".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The new intern | availed | the opportunity | to work on live projects | No error
+ANSWER: B
+RULE: 15
+EXPLAIN: "Avail" must be followed by a reflexive pronoun as its object, so it should be "availed himself of".
+%%%
+TYPE: SPOT_ERROR
+PARTS: She hid | herself behind | the counter | when the robber entered | No error
+ANSWER: B
+RULE: 16
+EXPLAIN: "Hide" is never followed by a reflexive pronoun; it should simply be "She hid behind the counter".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The report along with | the annexures | were sent | to the regional office | No error
+ANSWER: C
+RULE: 17
+EXPLAIN: With "along with", the verb agrees only with the first subject "the report" (singular), so it should be "was sent".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The loose papers | on the desk | began to loose | in the strong wind | No error
+ANSWER: C
+RULE: 18
+EXPLAIN: "Loose" (adjective) is wrongly used as a verb; it should be "began to lose", the verb meaning "to misplace/be scattered".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The manager | likes chocolates | more than | I | No error
+ANSWER: D
+RULE: 19
+EXPLAIN: Since "chocolates" (an object) is what's being compared, the objective case is needed; it should be "more than me", not "more than I".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The employee | whom | everybody thought | was honest, was caught stealing | No error
+ANSWER: B
+RULE: 20
+EXPLAIN: "Whom" is wrongly used here as it functions as the subject of "was honest"; it should be "who".
+%%%
+TYPE: SPOT_ERROR
+PARTS: She sought | his separation | from the joint family | after the property dispute | No error
+ANSWER: B
+RULE: 21
+EXPLAIN: "Separation" does not take a possessive case directly before it; it should be "separation of him" or reworded as "his being separated".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The five partners | always support | each other | in every business decision | No error
+ANSWER: C
+RULE: 22
+EXPLAIN: Since there are more than two partners, "each other" should be replaced with "one another".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The old machine | seldom or ever | breaks down | during peak season | No error
+ANSWER: B
+RULE: 23
+EXPLAIN: The correct idiom is "seldom or never" (or "seldom, if ever"), never "seldom or ever".
+%%%
+TYPE: SPOT_ERROR
+PARTS: This is | very best | scheme | offered by the bank this year | No error
+ANSWER: B
+RULE: 24
+EXPLAIN: When "very" is used with a superlative, it must be preceded by "the"; it should be "the very best".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He was not | strong enough | to lift | the heavy cash box alone | No error
+ANSWER: E
+RULE: 25
+EXPLAIN: No error â€” "enough" is correctly placed after the adjective "strong", following the adverb rule.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The committee | elected | him as | an efficient chairman | No error
+ANSWER: E
+RULE: 26
+EXPLAIN: No error â€” "elect" is one of the verbs that is never followed by "as", and none is used here; the sentence is correct as it stands.
+%%%
+TYPE: SPOT_ERROR
+PARTS: Although the market crashed | but the fund manager | remained calm | throughout the day | No error
+ANSWER: A
+RULE: 27
+EXPLAIN: "Although" never takes "but" in the main clause; the word "but" in part B should be removed, but since the flagged clause containing "although" starts in A, the correction removes "but" in the following part.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The auditor | is owning | a large flat | near the branch office | No error
+ANSWER: B
+RULE: 28
+EXPLAIN: "Own" denotes possession and has no "-ing" form; it should be "owns".
+%%%
+TYPE: SPOT_ERROR
+PARTS: I have | already | submit | my resignation letter | No error
+ANSWER: C
+RULE: 29
+EXPLAIN: "Already" is used with the Perfect Tense, so "submit" should be "submitted".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The jury | was divided | in their opinion | about the verdict | No error
+ANSWER: B
+RULE: 30
+EXPLAIN: Since the members of the jury are acting/thinking individually here ("divided in their opinion"), the collective noun takes a plural verb; it should be "were divided".
+%%%
+TYPE: SPOT_ERROR
+PARTS: His careless attitude | is injurious | for his career | in the long run | No error
+ANSWER: C
+RULE: 31
+EXPLAIN: "Injurious" is always followed by "to", not "for"; it should be "injurious to his career".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Her handwriting | is not | so neat as | her sister's | No error
+ANSWER: E
+RULE: 32
+EXPLAIN: No error â€” "so...as" is correctly used here in a negative statement.
+%%%
+TYPE: SPOT_ERROR
+PARTS: This building | is three times | larger than | the old branch office | No error
+ANSWER: B
+RULE: 33
+EXPLAIN: "Times" cannot be followed by a comparative degree; it should be "three times as large as".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The teacher asked the students | that why they | had not submitted | the assignment on time | No error
+ANSWER: B
+RULE: 34
+EXPLAIN: Indirect questions must follow statement word order without "that" before the question word; it should be "why they had not submitted".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Neither the branch manager | nor the clerks | was aware | of the new circular | No error
+ANSWER: C
+RULE: 35
+EXPLAIN: With "neither/nor", the verb agrees with the nearer subject "the clerks" (plural), so it should be "were aware".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Of the two schemes | this one is | more profitabler | than the other | No error
+ANSWER: C
+RULE: 36
+EXPLAIN: When comparing two qualities of the same object/scheme, "more" alone is used with the adjective, not a double comparative; it should be "more profitable".
+%%%
+TYPE: SPOT_ERROR
+PARTS: More than one | applicant | have been | shortlisted for the post | No error
+ANSWER: C
+RULE: 37
+EXPLAIN: "More than one" always takes a singular verb, so it should be "has been shortlisted".
+%%%
+TYPE: SPOT_ERROR
+PARTS: I doubt | that | he will | repay the loan on time | No error
+ANSWER: B
+RULE: 38
+EXPLAIN: "Doubt" should be followed by "if" or "whether", not "that"; it should be "I doubt if he will repay".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The teacher told the students | that the earth | revolved | around the sun | No error
+ANSWER: C
+RULE: 39
+EXPLAIN: A universal truth stays in the Simple Present even in reported speech, so it should be "revolves", not "revolved".
+%%%
+TYPE: SPOT_ERROR
+PARTS: She has | little | knowledge | about few banking terms | No error
+ANSWER: D
+RULE: 40
+EXPLAIN: "Banking terms" is a countable noun, so it should take "a few", not "few" alone, to mean "some"; as used, "few" implies "almost none", which is contextually wrong here â€” it should be "a few banking terms".
+%%%
+TYPE: SPOT_ERROR
+PARTS: There is no one | in the office | except | he | No error
+ANSWER: D
+RULE: 41
+EXPLAIN: "Except" functions as a preposition here and must be followed by the objective case; it should be "except him".
+%%%
+TYPE: SPOT_ERROR
+PARTS: You, he and me | are | going to attend | the branch meeting | No error
+ANSWER: A
+RULE: 42
+EXPLAIN: In a positive sense with all three persons as subject, the order is 2nd-3rd-1st with the subjective case, so it should be "You, he and I".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Kindly return | back | the loan documents | at the earliest | No error
+ANSWER: B
+RULE: 43
+EXPLAIN: "Return" already implies "back"; the word "back" is superfluous and should be removed.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The table's leg | was broken | during the office | shifting | No error
+ANSWER: A
+RULE: 44
+EXPLAIN: The apostrophe ('s) is generally not used with non-living things; it should be "the leg of the table".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The RBI | has revised | the repo rate | yesterday | No error
+ANSWER: B
+RULE: 45
+EXPLAIN: A specific point of past time ("yesterday") requires the Simple Past, not the Present Perfect; it should be "revised".
+%%%
+TYPE: SPOT_ERROR
+PARTS: This is | the most | perfect | solution to the fraud problem | No error
+ANSWER: B
+RULE: 46
+EXPLAIN: "Perfect" is an absolute adjective and cannot be used with "most"; it should simply be "the perfect solution".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He was | quite | all | satisfied with the settlement | No error
+ANSWER: C
+RULE: 47
+EXPLAIN: "Quite" and "all" cannot be used together in the same sentence; "all" should be removed.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The old cashier | had retired | ten years ago | from the bank | No error
+ANSWER: B
+RULE: 48
+EXPLAIN: With "ago", the Simple Past is used, not the Past Perfect; it should be "retired ten years ago".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Ram's and Shyam's | cars | were parked | outside the branch | No error
+ANSWER: E
+RULE: 49
+EXPLAIN: No error â€” this is split possession (two separate cars belonging separately to Ram and Shyam), so each name correctly takes its own possessive sign, and the plural verb "were" is correct.
+%%%
+TYPE: SPOT_ERROR
+PARTS: Its | a well-known fact | that inflation | affects the poor the most | No error
+ANSWER: A
+RULE: 50
+EXPLAIN: "Its" (possessive) is wrongly used for the contraction; it should be "It's" (it is).
+%%%
+TYPE: SPOT_ERROR
+PARTS: A number of | customers | has complained | about the new app | No error
+ANSWER: C
+RULE: 51
+EXPLAIN: "A number of + plural noun" takes a plural verb; it should be "have complained".
+%%%
+TYPE: SPOT_ERROR
+PARTS: It is high time | the government | takes | strict action against defaulters | No error
+ANSWER: C
+RULE: 52
+EXPLAIN: "It is high time" followed directly by a subject requires the past tense form; it should be "took".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The customer | was angry | at the branch manager | for the delay | No error
+ANSWER: B
+RULE: 53
+EXPLAIN: "Angry" takes "with" when referring to a person, not "at"; it should be "angry with the branch manager".
+%%%
+TYPE: SPOT_ERROR
+PARTS: I don't know | to solve | this reconciliation problem | at all | No error
+ANSWER: B
+RULE: 54
+EXPLAIN: "Know" is not directly followed by the infinitive "to"; it should be "how to solve".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He would rather resign | than | to accept | this humiliating transfer | No error
+ANSWER: C
+RULE: 55
+EXPLAIN: "Rather" should be followed by "than + base verb", not "than to accept"; it should be "than accept".
+%%%
+TYPE: SPOT_ERROR
+PARTS: This kind of | excuses | are | not acceptable to the manager | No error
+ANSWER: C
+RULE: 56
+EXPLAIN: "Kind", "sort", "type" always take a singular verb; it should be "is not acceptable".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He put the cheque | inside | his file | that was lying on the desk | No error
+ANSWER: E
+RULE: 57
+EXPLAIN: No error â€” "inside" correctly implies movement from outside to inside the file.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The document | was signed | with the branch manager | in front of two witnesses | No error
+ANSWER: C
+RULE: 58
+EXPLAIN: "By" is used for a living agent, not "with"; it should be "signed by the branch manager".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The new financial year | will start | from April | this time | No error
+ANSWER: B
+RULE: 59
+EXPLAIN: "Start" is not used with "from"; it should be "will start on April 1" or reworded to remove "from".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The officer could not | help | to notice | the discrepancy in the ledger | No error
+ANSWER: C
+RULE: 60
+EXPLAIN: "Help" as used here takes "V1+ing", not "to + V1"; it should be "help noticing".
+%%%
+TYPE: SPOT_ERROR
+PARTS: She is | a honest | and hardworking | employee of the bank | No error
+ANSWER: B
+RULE: 61
+EXPLAIN: "Honest" begins with a vowel sound (silent h), so it should take "an", not "a"; it should be "an honest".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Mount Everest | is | highest peak | in the Himalayas | No error
+ANSWER: C
+RULE: 62
+EXPLAIN: The superlative degree always takes "the"; it should be "the highest peak".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He plays | the cricket | every evening | with his colleagues | No error
+ANSWER: B
+RULE: 63
+EXPLAIN: Names of sports take no article; it should simply be "plays cricket".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The government | must take care | of poor and | needy of the society | No error
+ANSWER: C
+RULE: 64
+EXPLAIN: "The + adjective" functions as a plural noun on its own; it should be "the poor and the needy", each taking "the".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The manager went | from office to offices | to check | the new software installation | No error
+ANSWER: B
+RULE: 65
+EXPLAIN: When the same noun is repeated with a preposition, both stay singular; it should be "from office to office".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Two mouses | were found | inside the server room | during inspection | No error
+ANSWER: A
+RULE: 66
+EXPLAIN: The irregular plural of "mouse" (the animal) is "mice"; it should be "Two mice".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The company hired | a female | clerk | for the front desk | No error
+ANSWER: B
+RULE: 67
+EXPLAIN: To denote the profession/role of a person, "woman" is used before the noun, not "female"; it should be "a woman clerk".
+%%%
+TYPE: SPOT_ERROR
+PARTS: This is the pen | with that | I signed | the loan agreement | No error
+ANSWER: B
+RULE: 3
+EXPLAIN: "That" cannot be preceded directly by a preposition; it should be "with which".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He works hard | isn't it | to clear the promotion exam | this year | No error
+ANSWER: B
+RULE: 69
+EXPLAIN: The question tag must be negative for a positive statement and must match the auxiliary; it should be "doesn't he".
+%%%
+TYPE: SPOT_ERROR
+PARTS: I am | representing my branch | in the meeting | isn't it | No error
+ANSWER: D
+RULE: 70
+EXPLAIN: The correct tag for "I am" is "aren't I", not "isn't it".
+%%%
+TYPE: SPOT_ERROR
+PARTS: She seldom comes late | does she | to the branch meetings | in the morning | No error
+ANSWER: B
+RULE: 71
+EXPLAIN: No error â€” since "seldom" carries a negative meaning, a positive tag "does she" is correctly used.
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each employee | must submit their KYC form | don't they | before the deadline | No error
+ANSWER: C
+RULE: 73
+EXPLAIN: The tag after "each" treats the noun as plural, but the auxiliary must still match the main verb "must"; it should be "mustn't they".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The staff | were arguing | over the new policy | isn't it | No error
+ANSWER: D
+RULE: 74
+EXPLAIN: Since the staff are acting individually here (plural sense, "were arguing"), the tag should also be plural; it should be "weren't they".
+%%%
+TYPE: SPOT_ERROR
+PARTS: I met the branch manager | in Mumbai | at 11 a.m. | on last Monday | No error
+ANSWER: D
+RULE: 76
+EXPLAIN: Time expressions like "last Monday" take no preposition; the word "on" should be removed.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The offer is valid | for both | senior citizens | as well as students | No error
+ANSWER: B
+RULE: 77
+EXPLAIN: "Both" is always paired with "and", never "as well as"; it should be "for both senior citizens and students".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Keep the cash box locked | lest | the thief | will steal it | No error
+ANSWER: D
+RULE: 78
+EXPLAIN: "Lest" is followed by "should" or the base verb, not "will"; it should be "lest the thief should steal it".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Unless you | submit the documents | you cannot | withdraw the amount till tomorrow | No error
+ANSWER: E
+RULE: 79
+EXPLAIN: No error â€” "unless" is correctly used here for a condition/action.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The manager wants | employees to be punctual | and that they | should complete their targets | No error
+ANSWER: C
+RULE: 80
+EXPLAIN: This violates Parallelism, as "employees to be punctual" (infinitive) is not parallel with "that they should complete"; it should be "and to complete their targets".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He is | good in | English | and mathematics both | No error
+ANSWER: B
+RULE: 81
+EXPLAIN: The correct preposition after "good" is "at", not "in"; it should be "good at".
+%%%
+TYPE: SPOT_ERROR
+PARTS: She added | much too | sugar | in the tea | No error
+ANSWER: B
+RULE: 82
+EXPLAIN: "Sugar" is an uncountable noun, so it should take "too much", not "much too"; it should be "too much sugar".
+%%%
+TYPE: SPOT_ERROR
+PARTS: All his | earning | were spent | on his sister's wedding | No error
+ANSWER: B
+RULE: 83
+EXPLAIN: "Earnings" is always plural; it should be "earnings", not "earning".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Politics | are | a dirty game | according to many people | No error
+ANSWER: B
+RULE: 84
+EXPLAIN: "Politics" as a field/subject is treated as singular; it should be "is a dirty game".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The statistics of the last quarter | shows | a decline | in profits | No error
+ANSWER: B
+RULE: 85
+EXPLAIN: "Statistics" meaning "data/figures" is treated as plural; it should be "show a decline".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The clerk needed | a pen | to sign | the register | No error
+ANSWER: E
+RULE: 90
+EXPLAIN: No error â€” "to sign" here directly takes an object ("the register"), so no extra preposition is needed; a preposition would only be required if the infinitive described the noun "pen" itself, e.g. "a pen to write with".
+%%%
+TYPE: SPOT_ERROR
+PARTS: I had gone | and will go again | to the branch | to submit the KYC | No error
+ANSWER: B
+RULE: 91
+EXPLAIN: Two different helping verbs (had, will) need the main verb repeated appropriately for each tense; it should be "had gone and will go again".
+%%%
+TYPE: SPOT_ERROR
+PARTS: My savings | is | kept | in a fixed deposit | No error
+ANSWER: B
+RULE: 92
+EXPLAIN: "Savings" is always plural and takes a plural verb; it should be "are kept".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The news about | the merger | were | shocking for employees | No error
+ANSWER: C
+RULE: 93
+EXPLAIN: "News" is always treated as singular; it should be "was shocking".
+%%%
+TYPE: SPOT_ERROR
+PARTS: We bought | some new furnitures | for | the reception area | No error
+ANSWER: B
+RULE: 94
+EXPLAIN: "Furniture" is uncountable and has no plural form; it should be "some new furniture".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Employees' all | belongings | were checked | at the security gate | No error
+ANSWER: A
+RULE: 96
+EXPLAIN: The possessive case must be placed after "all", not before; it should be "All the employees' belongings".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Due to | the reason that | the server crashed, | the transaction failed | No error
+ANSWER: B
+RULE: 97
+EXPLAIN: "Due to" and "the reason that" should not be combined; it should be either "due to the server crashing" or "because the server crashed".
+%%%
+TYPE: SPOT_ERROR
+PARTS: There is | only a little | quantity of | cash left in the vault | No error
+ANSWER: B
+RULE: 98
+EXPLAIN: "Quantity" takes "small", not "little"; it should be "only a small quantity".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The bank was | founded | in 1935 | and has grown steadily | No error
+ANSWER: E
+RULE: 99
+EXPLAIN: No error â€” "founded" is correctly used to mean "established".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The old file | was laying | on the manager's desk | since morning | No error
+ANSWER: B
+RULE: 100
+EXPLAIN: "Lie" (to rest/be placed) has the past continuous form "was lying", not "was laying" (which belongs to "lay", meaning to place something); it should be "was lying".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He died | from | a heart attack | last night | No error
+ANSWER: B
+RULE: 101
+EXPLAIN: "Die of" is used for a disease/ailment; it should be "died of a heart attack".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Besides | the manager | sat | the auditor during the meeting | No error
+ANSWER: A
+RULE: 102
+EXPLAIN: "Besides" means "in addition to"; the sense here needs "beside" (next to); it should be "Beside the manager sat the auditor".
+%%%
+TYPE: SPOT_ERROR
+PARTS: She completed | the task | very | orderly and efficiently | No error
+ANSWER: D
+RULE: 103
+EXPLAIN: "Orderly" is an adjective only and cannot be used as an adverb; the sentence needs rewording, e.g. "in an orderly and efficient manner".
+%%%
+TYPE: SPOT_ERROR
+PARTS: He submitted | quickly the report | to the manager | before leaving | No error
+ANSWER: B
+RULE: 104
+EXPLAIN: An adverb cannot be placed between the verb and its object; it should be "submitted the report quickly".
+%%%
+TYPE: SPOT_ERROR
+PARTS: She spoke | fluently yesterday | at the office | conference | No error
+ANSWER: B
+RULE: 105
+EXPLAIN: The order of adverbs should be Manner-Place-Time; it should be "spoke fluently at the office conference yesterday".
+%%%
+TYPE: SPOT_ERROR
+PARTS: This is | very | the best | branch in the region | No error
+ANSWER: C
+RULE: 106
+EXPLAIN: "Very" cannot directly modify a superlative in this construction without "the" preceding it correctly; it should be "the very best branch".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The meeting is scheduled | between |10 a.m. | to 11 a.m. | No error
+ANSWER: D
+RULE: 107
+EXPLAIN: "Between" is always followed by "and", never by "to"; it should be "between 10 a.m. and 11 a.m.".
+%%%
+TYPE: SPOT_ERROR
+PARTS: There are | fewer | cash | available at this counter | No error
+ANSWER: B
+RULE: 111
+EXPLAIN: "Cash" is uncountable, so it should take "less", not "fewer"; it should be "less cash".
+%%%
+TYPE: SPOT_ERROR
+PARTS: My elder brother | works | at a bigger branch | farther from home | No error
+ANSWER: E
+RULE: 112
+EXPLAIN: No error â€” "elder" (family) and "farther" (physical distance) are both correctly used here.
+%%%
+TYPE: SPOT_ERROR
+PARTS: No one | except | he | attended the training session | No error
+ANSWER: C
+RULE: 115
+EXPLAIN: "Except" takes the objective case; it should be "except him".
+%%%
+TYPE: SPOT_ERROR
+PARTS: It is | I | who am responsible | for this error | No error
+ANSWER: E
+RULE: 116
+EXPLAIN: No error â€” after the pseudo subject "it", the subjective case "I" is correctly used, matching the verb "am".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The manager's's | signature | was missing | on the cheque | No error
+ANSWER: A
+RULE: 118
+EXPLAIN: A double possessive apostrophe is incorrect; it should simply be "The manager's signature".
+%%%
+TYPE: SPOT_ERROR
+PARTS: This umbrella | is her's | not mine | as she claims | No error
+ANSWER: B
+RULE: 119
+EXPLAIN: Possessive pronouns never take an apostrophe; it should be "hers".
+%%%
+TYPE: FILL_BLANK
+Q: ____ candidate who applies late will be disqualified from the recruitment process.
+OPTIONS: Each | All | Every | Both
+ANSWER: A
+RULE: 1
+EXPLAIN: "Each" can be used for two or more items individually and fits as an adjective before a singular noun here.
+%%%
+TYPE: FILL_BLANK
+Q: ____ the manager nor the staff were informed about the surprise audit.
+OPTIONS: Both | Either | Neither | Not only
+ANSWER: C
+RULE: 2
+EXPLAIN: "Neither...nor" is the correct pairing to negate two subjects together.
+%%%
+TYPE: FILL_BLANK
+Q: This is the officer ____ helped me open my savings account.
+OPTIONS: which | whom | who | whose
+ANSWER: C
+RULE: 3
+EXPLAIN: "Who" is used as the subject of the verb "helped", referring to a person.
+%%%
+TYPE: FILL_BLANK
+Q: If the RBI ____ the repo rate last month, EMIs would have come down by now.
+OPTIONS: cuts | had cut | cut | would cut
+ANSWER: B
+RULE: 4
+EXPLAIN: This is a Type III conditional (Past Perfect in the if-clause) since it refers to an unreal past condition.
+%%%
+TYPE: FILL_BLANK
+Q: One of the biggest challenges ____ the bank faces is rising NPAs.
+OPTIONS: what | that | who | whom
+ANSWER: B
+RULE: 5
+EXPLAIN: "That" is the correct relative pronoun referring back to "challenges" (a thing).
+%%%
+TYPE: FILL_BLANK
+Q: The bank sanctioned a ____ crore loan to the infrastructure company.
+OPTIONS: five-hundred | five-hundreds | five hundred's | fifth-hundred
+ANSWER: A
+RULE: 6
+EXPLAIN: In "Number + Unit + Noun", the unit ("hundred") remains singular.
+%%%
+TYPE: FILL_BLANK
+Q: He has been working at this branch ____ 2015.
+OPTIONS: for | since | from | during
+ANSWER: B
+RULE: 9
+EXPLAIN: "Since" is used with a specific point of time in the past that continues to the present.
+%%%
+TYPE: FILL_BLANK
+Q: By the time the manager arrived, the clerk ____ already closed the counter.
+OPTIONS: has | have | had | was
+ANSWER: C
+RULE: 10
+EXPLAIN: The earlier of two past actions takes the Past Perfect ("had closed").
+%%%
+TYPE: FILL_BLANK
+Q: The board appreciated ____ handling the crisis so calmly.
+OPTIONS: him | he | his | himself
+ANSWER: C
+RULE: 11
+EXPLAIN: A possessive adjective ("his") is used before the gerund "handling".
+%%%
+TYPE: FILL_BLANK
+Q: Rarely ____ such a sharp fall in the stock market witnessed before.
+OPTIONS: has been | had | was | has
+ANSWER: A
+RULE: 12
+EXPLAIN: A sentence beginning with a negative adverb like "rarely" requires inversion â€” helping verb before subject.
+%%%
+TYPE: FILL_BLANK
+Q: The accused was sent to ____ for three years for the fraud.
+OPTIONS: the prison | a prison | prison | this prison
+ANSWER: C
+RULE: 13
+EXPLAIN: When "prison" is used for its primary purpose (serving a sentence), no article is used at all.
+%%%
+TYPE: FILL_BLANK
+Q: No sooner had the market opened ____ prices started falling sharply.
+OPTIONS: when | than | then | that
+ANSWER: B
+RULE: 14
+EXPLAIN: "No sooner" is always followed by "than".
+%%%
+TYPE: FILL_BLANK
+Q: He prides ____ on completing every project ahead of schedule.
+OPTIONS: him | he | himself | his
+ANSWER: C
+RULE: 15
+EXPLAIN: "Pride" always takes a reflexive pronoun as its object.
+%%%
+TYPE: FILL_BLANK
+Q: The interest calculation, as well as the processing fee, ____ mentioned in the loan document.
+OPTIONS: are | is | were | have been
+ANSWER: B
+RULE: 17
+EXPLAIN: With "as well as", the verb agrees only with the first subject, "the interest calculation" (singular).
+%%%
+TYPE: FILL_BLANK
+Q: She ____ to the branch every day by bus.
+OPTIONS: effects | affects | travels | travel
+ANSWER: C
+RULE: 18
+EXPLAIN: "Travels" (verb, singular agreement) correctly fits the sentence about daily commute.
+%%%
+TYPE: FILL_BLANK
+Q: The clerk to ____ I handed the cheque has left for lunch.
+OPTIONS: who | whom | which | whose
+ANSWER: B
+RULE: 20
+EXPLAIN: "Whom" is used as the object of the preposition "to".
+%%%
+TYPE: FILL_BLANK
+Q: He sought ____ from the partnership after the dispute.
+OPTIONS: his separation | separation | a separation of him | separation's
+ANSWER: B
+RULE: 21
+EXPLAIN: "Separation" does not take a possessive case directly before it.
+%%%
+TYPE: FILL_BLANK
+Q: The four board members always support ____ during discussions.
+OPTIONS: each other | one another | themselves | each others
+ANSWER: B
+RULE: 22
+EXPLAIN: "One another" is used when more than two people are involved.
+%%%
+TYPE: FILL_BLANK
+Q: This branch ____ reports any cybersecurity incident.
+OPTIONS: seldom or ever | seldom or never | never or seldom | ever or seldom
+ANSWER: B
+RULE: 23
+EXPLAIN: The correct fixed expression is "seldom or never".
+%%%
+TYPE: FILL_BLANK
+Q: This is ____ best offer the bank has given this festive season.
+OPTIONS: very | the very | much the | very the
+ANSWER: B
+RULE: 24
+EXPLAIN: "Very" with a superlative degree is always preceded by "the".
+%%%
+TYPE: FILL_BLANK
+Q: The safe was ____ heavy for one person to move.
+OPTIONS: too | enough | so much | such
+ANSWER: A
+RULE: 25
+EXPLAIN: "Too" correctly modifies the adjective "heavy" to indicate an excessive degree.
+%%%
+TYPE: FILL_BLANK
+Q: The panel ____ him an efficient team leader after the successful audit.
+OPTIONS: regarded as | regarded | considered as | named as
+ANSWER: B
+RULE: 26
+EXPLAIN: "Regard" is not used with "as" in this sense when directly followed by a noun complement in this construction; "regarded him an efficient team leader" fits the pattern of verbs that do not take "as".
+%%%
+TYPE: FILL_BLANK
+Q: ____ the market crashed, the fund manager remained calm.
+OPTIONS: Although | Because | Since | As
+ANSWER: A
+RULE: 27
+EXPLAIN: "Although" (meaning "in spite of") correctly introduces the subordinate clause, contrasted with the main clause.
+%%%
+TYPE: FILL_BLANK
+Q: This flat ____ to my uncle since 1990.
+OPTIONS: is belonging | belongs | belonging | has been belonging
+ANSWER: B
+RULE: 28
+EXPLAIN: "Belong" (a verb of possession) has no "-ing" form, so the simple present "belongs" is used.
+%%%
+TYPE: FILL_BLANK
+Q: I have ____ submitted my resignation letter to HR.
+OPTIONS: yesterday | already | ago | last week
+ANSWER: B
+RULE: 29
+EXPLAIN: "Already" is always used with the Perfect Tense.
+%%%
+TYPE: FILL_BLANK
+Q: The jury ____ unanimous in its verdict.
+OPTIONS: were | was | are | have been
+ANSWER: B
+RULE: 30
+EXPLAIN: Since the jury acted as a single unit here (unanimous), the collective noun takes a singular verb.
+%%%
+TYPE: FILL_BLANK
+Q: Smoking in the office is ____ to the health of other employees.
+OPTIONS: injurious for | injurious to | injurious with | injurious of
+ANSWER: B
+RULE: 31
+EXPLAIN: "Injurious" is always followed by the preposition "to".
+%%%
+TYPE: FILL_BLANK
+Q: Her performance this quarter is not ____ good as last quarter's.
+OPTIONS: as...as | so...as | as | such
+ANSWER: B
+RULE: 32
+EXPLAIN: "So...as" is used specifically in negative comparative statements.
+%%%
+TYPE: FILL_BLANK
+Q: This branch handles three ____ as many transactions as the older one.
+OPTIONS: times more | times | times as | more times
+ANSWER: C
+RULE: 33
+EXPLAIN: "Times" must be followed by "as...as", never a comparative degree; "times as" fits the correct pattern "three times as many...as".
+%%%
+TYPE: FILL_BLANK
+Q: The interviewer asked me ____ I had prior experience in banking.
+OPTIONS: that | whether | that if | if that
+ANSWER: B
+RULE: 34
+EXPLAIN: Indirect yes/no questions are correctly introduced by "whether" or "if".
+%%%
+TYPE: FILL_BLANK
+Q: Neither the manager nor the tellers ____ aware of the new circular.
+OPTIONS: is | was | were | has been
+ANSWER: C
+RULE: 35
+EXPLAIN: With "neither/nor", the verb agrees with the nearer subject, "the tellers" (plural).
+%%%
+TYPE: FILL_BLANK
+Q: Between the two schemes, this one is ____ profitable.
+OPTIONS: more | most | very | the most
+ANSWER: A
+RULE: 36
+EXPLAIN: When comparing two things, the comparative "more" (not the superlative) is used.
+%%%
+TYPE: FILL_BLANK
+Q: ____ employee has been shortlisted for the managerial post so far.
+OPTIONS: More than one | More than a | More one | One more than
+ANSWER: A
+RULE: 37
+EXPLAIN: "More than one" is always followed by a singular noun and singular verb.
+%%%
+TYPE: FILL_BLANK
+Q: I doubt ____ he will be able to repay the loan on time.
+OPTIONS: that | if | this | so
+ANSWER: B
+RULE: 38
+EXPLAIN: "Doubt" is followed by "if" or "whether", not "that".
+%%%
+TYPE: FILL_BLANK
+Q: The teacher told the class that honesty ____ the best policy.
+OPTIONS: was | is | had been | were
+ANSWER: B
+RULE: 39
+EXPLAIN: A proverb/universal truth stays in the Simple Present even in reported speech.
+%%%
+TYPE: FILL_BLANK
+Q: There is ____ hope of recovering the stolen money.
+OPTIONS: few | a few | little | a little
+ANSWER: C
+RULE: 40
+EXPLAIN: "Hope" is uncountable, and "little" here conveys "hardly any", matching the pessimistic context.
+%%%
+TYPE: FILL_BLANK
+Q: No one attended the meeting except ____.
+OPTIONS: he | him | himself | his
+ANSWER: B
+RULE: 41
+EXPLAIN: "Except" functions as a preposition and takes the objective case.
+%%%
+TYPE: FILL_BLANK
+Q: ____ are jointly responsible for the loss shown in the audit report.
+OPTIONS: I, you and he | You, he and I | He, you and I | I, he and you
+ANSWER: B
+RULE: 42
+EXPLAIN: In a positive sense with all three persons, the correct order is 2nd-3rd-1st person: "You, he and I".
+%%%
+TYPE: FILL_BLANK
+Q: Kindly ____ the signed documents at the earliest.
+OPTIONS: return back | send back again | return | revert back
+ANSWER: C
+RULE: 43
+EXPLAIN: "Return" already implies "back", so the redundant word must be dropped.
+%%%
+TYPE: FILL_BLANK
+Q: The leg ____ was badly damaged during the office shifting.
+OPTIONS: of the table | table's | of table's | the table's of
+ANSWER: A
+RULE: 44
+EXPLAIN: The apostrophe ('s) is generally not used with non-living things like "table"; "of" is used instead.
+%%%
+TYPE: FILL_BLANK
+Q: The RBI ____ the repo rate yesterday.
+OPTIONS: has revised | have revised | revised | was revising
+ANSWER: C
+RULE: 45
+EXPLAIN: A specific past time point ("yesterday") requires the Simple Past tense.
+%%%
+TYPE: FILL_BLANK
+Q: This is the ____ solution to the current liquidity crisis.
+OPTIONS: most perfect | perfect | most ideal | very perfect
+ANSWER: B
+RULE: 46
+EXPLAIN: "Perfect" is an absolute adjective and is never used with "most".
+%%%
+TYPE: FILL_BLANK
+Q: He was ____ satisfied with the compensation offered by the insurance company.
+OPTIONS: quite all | all quite | quite | so all
+ANSWER: C
+RULE: 47
+EXPLAIN: "Quite" and "all" can never be used together in the same sentence.
+%%%
+TYPE: FILL_BLANK
+Q: The old cashier retired ten years ____.
+OPTIONS: before | ago | since | past
+ANSWER: B
+RULE: 48
+EXPLAIN: "Ago" is used with the Simple Past to indicate a specific time before now.
+%%%
+TYPE: FILL_BLANK
+Q: ____ a well-known fact that inflation hurts the poor the most.
+OPTIONS: Its | It's | Its' | It is'
+ANSWER: B
+RULE: 50
+EXPLAIN: "It's" is the correct contraction of "it is".
+%%%
+TYPE: FILL_BLANK
+Q: A number of customers ____ complained about the new mobile app.
+OPTIONS: has | have | is having | was
+ANSWER: B
+RULE: 51
+EXPLAIN: "A number of + plural noun" takes a plural verb.
+%%%
+TYPE: FILL_BLANK
+Q: It is high time the government ____ strict action against loan defaulters.
+OPTIONS: takes | took | will take | has taken
+ANSWER: B
+RULE: 52
+EXPLAIN: "It is high time" followed directly by a subject requires the past tense form.
+%%%
+TYPE: FILL_BLANK
+Q: The customer was angry ____ the branch manager for the delay in processing.
+OPTIONS: at | on | with | to
+ANSWER: C
+RULE: 53
+EXPLAIN: "Angry" takes "with" when referring to a person.
+%%%
+TYPE: FILL_BLANK
+Q: I don't know ____ solve this reconciliation problem.
+OPTIONS: to | how to | that to | for to
+ANSWER: B
+RULE: 54
+EXPLAIN: "Know" is never directly followed by "to"; it needs a wh-word like "how" first.
+%%%
+TYPE: FILL_BLANK
+Q: He would rather resign ____ accept this unfair transfer.
+OPTIONS: than to | than | rather than to | then
+ANSWER: B
+RULE: 55
+EXPLAIN: "Rather" is followed by "than + base verb", without "to".
+%%%
+TYPE: FILL_BLANK
+Q: This ____ of excuse is not acceptable to the manager.
+OPTIONS: kind | kinds | kind's | kindly
+ANSWER: A
+RULE: 56
+EXPLAIN: "Kind", "sort", "type" are singular and take a singular verb/structure.
+%%%
+TYPE: FILL_BLANK
+Q: He slipped the receipt ____ his wallet before leaving the counter.
+OPTIONS: in | inside | into | at
+ANSWER: C
+RULE: 57
+EXPLAIN: "Into" is used to show movement toward the inside of something.
+%%%
+TYPE: FILL_BLANK
+Q: The cheque was signed ____ the branch manager himself.
+OPTIONS: with | by | from | through
+ANSWER: B
+RULE: 58
+EXPLAIN: "By" is used to refer to a living agent performing the action.
+%%%
+TYPE: FILL_BLANK
+Q: The new financial year will start ____ 1st April.
+OPTIONS: from | since | on | at
+ANSWER: C
+RULE: 59
+EXPLAIN: "Start" is not used with "from"; "on" is used with a specific date.
+%%%
+TYPE: FILL_BLANK
+Q: The officer could not help ____ the discrepancy in the ledger.
+OPTIONS: to notice | notice | noticing | to noticing
+ANSWER: C
+RULE: 60
+EXPLAIN: "Help" in this idiomatic sense takes "V1+ing" (a gerund).
+%%%
+TYPE: FILL_BLANK
+Q: She is ____ honest and sincere employee of the bank.
+OPTIONS: a | an | the | no article
+ANSWER: B
+RULE: 61
+EXPLAIN: "Honest" begins with a vowel sound (silent h), so it takes "an".
+%%%
+TYPE: FILL_BLANK
+Q: ____ Ganga is considered sacred by millions in India.
+OPTIONS: A | An | The | No article
+ANSWER: C
+RULE: 62
+EXPLAIN: Names of rivers always take the definite article "the".
+%%%
+TYPE: FILL_BLANK
+Q: He plays ____ every evening with his colleagues after office hours.
+OPTIONS: the cricket | a cricket | cricket | crickets
+ANSWER: C
+RULE: 63
+EXPLAIN: Names of sports take no article.
+%%%
+TYPE: FILL_BLANK
+Q: The government must take care of ____ and the needy in society.
+OPTIONS: poor | a poor | the poor | poors
+ANSWER: C
+RULE: 64
+EXPLAIN: "The + adjective" functions as a plural noun referring to the whole group.
+%%%
+TYPE: FILL_BLANK
+Q: The manager went from ____ to check the new software installation.
+OPTIONS: office to office | office to offices | offices to office | the office to the offices
+ANSWER: A
+RULE: 65
+EXPLAIN: A repeated noun joined by a preposition stays singular in both instances.
+%%%
+TYPE: FILL_BLANK
+Q: Two ____ were found inside the server room during the inspection.
+OPTIONS: mouses | mice | mouse | mices
+ANSWER: B
+RULE: 66
+EXPLAIN: The irregular plural of "mouse" (the rodent) is "mice".
+%%%
+TYPE: FILL_BLANK
+Q: The company recently hired a ____ clerk for the front desk.
+OPTIONS: female | woman | she | girl-type
+ANSWER: B
+RULE: 67
+EXPLAIN: "Woman" before a noun denotes the profession/role of the person.
+%%%
+TYPE: FILL_BLANK
+Q: Are you coming to the branch meeting, ____?
+OPTIONS: are you | aren't you | will you | do you
+ANSWER: B
+RULE: 69
+EXPLAIN: A positive statement takes a negative question tag: "aren't you".
+%%%
+TYPE: FILL_BLANK
+Q: I am representing my branch at the conference, ____?
+OPTIONS: am I not | isn't it | amn't I | won't I
+ANSWER: A
+RULE: 70
+EXPLAIN: The correct tag for "I am" is "aren't I" or formally "am I not".
+%%%
+TYPE: FILL_BLANK
+Q: She seldom comes late to the branch, ____?
+OPTIONS: doesn't she | does she | isn't she | didn't she
+ANSWER: B
+RULE: 71
+EXPLAIN: Since "seldom" carries a negative meaning, the question tag should be positive.
+%%%
+TYPE: FILL_BLANK
+Q: Each employee must submit the KYC form on time, ____?
+OPTIONS: don't they | mustn't they | aren't they | didn't they
+ANSWER: B
+RULE: 73
+EXPLAIN: The tag's auxiliary must match the main verb "must", even though "each" is treated as plural in the tag.
+%%%
+TYPE: FILL_BLANK
+Q: I met the branch manager ____ 11 a.m. ____ Monday.
+OPTIONS: at / on | in / at | on / in | at / in
+ANSWER: A
+RULE: 76
+EXPLAIN: "At" is used for a point of time (11 a.m.), and "on" is used for a specific day (Monday).
+%%%
+TYPE: FILL_BLANK
+Q: This offer is valid for ____ senior citizens and students.
+OPTIONS: both | either | neither | not only
+ANSWER: A
+RULE: 77
+EXPLAIN: "Both" is always paired with "and".
+%%%
+TYPE: FILL_BLANK
+Q: Keep the vault locked ____ the thief steal the cash.
+OPTIONS: unless | lest | until | in case that
+ANSWER: B
+RULE: 78
+EXPLAIN: "Lest" (meaning "otherwise/for fear that") followed by "should" fits the warning sense here.
+%%%
+TYPE: FILL_BLANK
+Q: You cannot withdraw the amount ____ you submit the required documents.
+OPTIONS: until | unless | till then | before that
+ANSWER: B
+RULE: 79
+EXPLAIN: "Unless" relates to a condition/action, which fits the sense of this sentence.
+%%%
+TYPE: FILL_BLANK
+Q: The manager wants employees to be punctual and ____ their targets on time.
+OPTIONS: that they complete | to complete | completing | for completing
+ANSWER: B
+RULE: 80
+EXPLAIN: For Parallelism, "to complete" must match the earlier infinitive form "to be punctual".
+%%%
+TYPE: FILL_BLANK
+Q: He is good ____ mathematics but weak ____ English grammar.
+OPTIONS: at / in | in / at | at / at | in / in
+ANSWER: C
+RULE: 81
+EXPLAIN: "Good" and "weak" both idiomatically take the preposition "at".
+%%%
+TYPE: FILL_BLANK
+Q: She added ____ sugar to the tea, spoiling its taste.
+OPTIONS: much too | too much | too many | much
+ANSWER: B
+RULE: 82
+EXPLAIN: "Sugar" is uncountable, so "too much" (adjective use) is correct.
+%%%
+TYPE: FILL_BLANK
+Q: All his ____ were spent on his sister's wedding.
+OPTIONS: earning | earnings | earn | earned
+ANSWER: B
+RULE: 83
+EXPLAIN: "Earnings" is always plural and is a noun formed from the verb "earn".
+%%%
+TYPE: FILL_BLANK
+Q: ____ is often considered a dirty game by common people.
+OPTIONS: Politics are | Politics is | Politic is | Political are
+ANSWER: B
+RULE: 84
+EXPLAIN: "Politics" referring to the field/activity is treated as singular.
+%%%
+TYPE: FILL_BLANK
+Q: The ____ of last quarter show a clear decline in profits.
+OPTIONS: statistics | statistic | static | statistical
+ANSWER: A
+RULE: 85
+EXPLAIN: "Statistics" meaning "data/figures" is plural and needs the plural verb "show".
+%%%
+TYPE: FILL_BLANK
+Q: I have three brothers; the eldest one is ____ brother of mine.
+OPTIONS: the | a | this | that
+ANSWER: B
+RULE: 86
+EXPLAIN: "A brother of mine" implies one among several, using "a" with the possessive rewrite.
+%%%
+TYPE: FILL_BLANK
+Q: He passed the exam and got a promotion ____.
+OPTIONS: also | too | too as well | as too
+ANSWER: B
+RULE: 87
+EXPLAIN: "Too" and "as well" can be placed at the end of a sentence, but "also" cannot; of the options given, "too" fits correctly.
+%%%
+TYPE: FILL_BLANK
+Q: ____ you get the promotion this year, work hard and stay humble.
+OPTIONS: May | Wish | Let | Should
+ANSWER: A
+RULE: 88
+EXPLAIN: An optative sentence expressing a wish typically begins with "May" followed by the base form of the verb.
+%%%
+TYPE: FILL_BLANK
+Q: ____ is raining heavily, so the branch may open late today.
+OPTIONS: This | That | It | There
+ANSWER: C
+RULE: 89
+EXPLAIN: "It" serves as the pseudo subject for describing weather conditions.
+%%%
+TYPE: FILL_BLANK
+Q: I had gone to the branch yesterday and will go ____ tomorrow as well.
+OPTIONS: (no repetition needed) | again | there again to submit | (main verb must be repeated: "will go again")
+ANSWER: D
+RULE: 91
+EXPLAIN: Since two different helping verbs (had, will) are used, the main verb must be repeated appropriately for each tense.
+%%%
+TYPE: FILL_BLANK
+Q: My ____ are kept in a fixed deposit account.
+OPTIONS: saving | savings | save | saved
+ANSWER: B
+RULE: 92
+EXPLAIN: "Savings" is always plural and takes a plural verb.
+%%%
+TYPE: FILL_BLANK
+Q: The ____ about the merger was shocking for all employees.
+OPTIONS: news | new | newer | newest
+ANSWER: A
+RULE: 93
+EXPLAIN: "News" is always treated as singular.
+%%%
+TYPE: FILL_BLANK
+Q: We bought some new ____ for the reception area.
+OPTIONS: furnitures | furniture | furnisher | furnishing's
+ANSWER: B
+RULE: 94
+EXPLAIN: "Furniture" is uncountable and has no plural form.
+%%%
+TYPE: FILL_BLANK
+Q: There is only a small ____ of cash left in the vault.
+OPTIONS: quantity | little quantity | few quantity | quantities
+ANSWER: A
+RULE: 98
+EXPLAIN: "Quantity" always takes "small", never "little" or "few".
+%%%
+TYPE: FILL_BLANK
+Q: The old file was ____ on the manager's desk since morning.
+OPTIONS: laying | lying | lain | lay
+ANSWER: B
+RULE: 100
+EXPLAIN: "Lie" (to rest/be placed) takes the continuous form "lying".
+%%%
+TYPE: FILL_BLANK
+Q: He died ____ a heart attack last night.
+OPTIONS: from | of | with | by
+ANSWER: B
+RULE: 101
+EXPLAIN: "Die of" is used when referring to a disease/ailment.
+%%%
+TYPE: FILL_BLANK
+Q: ____ the manager's desk sat the auditor, watching every entry closely.
+OPTIONS: Besides | Beside | Aside | Alongside of
+ANSWER: B
+RULE: 102
+EXPLAIN: "Beside" (meaning "next to") fits the sense here, not "besides" (meaning "in addition to").
+%%%
+TYPE: FILL_BLANK
+Q: She completed the task in ____ manner, impressing the manager.
+OPTIONS: an orderly | orderly | order | ordered
+ANSWER: A
+RULE: 103
+EXPLAIN: "Orderly" is an adjective only, so it must describe the noun "manner" rather than function as an adverb directly.
+%%%
+TYPE: FILL_BLANK
+Q: The meeting is scheduled ____ 10 a.m. ____ 11 a.m.
+OPTIONS: between / to | from / and | between / and | from / to
+ANSWER: C
+RULE: 107
+EXPLAIN: "Between" is always followed by "and".
+%%%
+TYPE: FILL_BLANK
+Q: There is ____ cash available at this counter today.
+OPTIONS: fewer | less | few | a few
+ANSWER: B
+RULE: 111
+EXPLAIN: "Cash" is uncountable, so it takes "less", not "fewer".
+%%%
+TYPE: FILL_BLANK
+Q: My ____ brother works at a bigger branch than mine.
+OPTIONS: older | elder | eldest | old
+ANSWER: B
+RULE: 112
+EXPLAIN: "Elder" is used for someone within one's own family.
+%%%
+TYPE: FILL_BLANK
+Q: No one attended the training session ____ him.
+OPTIONS: besides | except | between | but for
+ANSWER: B
+RULE: 115
+EXPLAIN: "Except" (as a preposition) is followed by the objective case "him".
+%%%
+TYPE: FILL_BLANK
+Q: It is ____ who is responsible for this costly error.
+OPTIONS: me | I | mine | myself
+ANSWER: B
+RULE: 116
+EXPLAIN: After a pseudo subject like "it", the subjective case is used, matching the verb "am/is".
+%%%
+TYPE: IMPROVEMENT
+Q: Every one of the employees __have submitted__ their annual declaration form.
+OPTIONS: have submit | has submitted | had submit | No improvement | has submit
+ANSWER: B
+RULE: 1
+EXPLAIN: "Every one" takes a singular verb, so it should be "has submitted".
+%%%
+TYPE: IMPROVEMENT
+Q: Both the manager and nor the clerk __was present__ at the emergency meeting.
+OPTIONS: were present | was presenting | is present | No improvement
+ANSWER: A
+RULE: 2
+EXPLAIN: "Both...and" (not "both...nor") should be used, requiring a plural verb: "were present"; "nor" must be replaced with "and".
+%%%
+TYPE: IMPROVEMENT
+Q: If the auditor __will find__ any discrepancy, he will report it immediately.
+OPTIONS: found | finds | had found | No improvement | will have found
+ANSWER: B
+RULE: 4
+EXPLAIN: In a Type I conditional, the if-clause takes the Simple Present ("finds").
+%%%
+TYPE: IMPROVEMENT
+Q: One of the reports that __was submitted__ late has been rejected by the auditor.
+OPTIONS: were submitted | is submitted | has submitted | No improvement
+ANSWER: A
+RULE: 5
+EXPLAIN: Since the relative pronoun "that" refers back to the plural "reports", the plural verb "were submitted" is needed.
+%%%
+TYPE: IMPROVEMENT
+Q: He has been living in this city __since ten years__.
+OPTIONS: for ten years | since ten year | from ten years | No improvement
+ANSWER: B
+RULE: 9
+EXPLAIN: A duration of time takes "for", not "since".
+%%%
+TYPE: IMPROVEMENT
+Q: After the accountant __had left__ the office, the auditor arrived to check the ledgers.
+OPTIONS: has left | left | leaves | No improvement
+ANSWER: D
+RULE: 10
+EXPLAIN: No improvement needed â€” the earlier action correctly uses the Past Perfect "had left".
+%%%
+TYPE: IMPROVEMENT
+Q: The manager appreciated __me completing__ the audit report ahead of schedule.
+OPTIONS: my completing | I completing | myself completing | No improvement
+ANSWER: A
+RULE: 11
+EXPLAIN: A possessive adjective should be used before a gerund: "my completing".
+%%%
+TYPE: IMPROVEMENT
+Q: __The report along with the annexures were sent__ to the regional office yesterday.
+OPTIONS: The report along with the annexures was sent | The report along with the annexures have been sent | The reports along with the annexure were sent | No improvement
+ANSWER: A
+RULE: 17
+EXPLAIN: With "along with", the verb agrees only with the first (singular) subject, "the report".
+%%%
+TYPE: IMPROVEMENT
+Q: The clerk __who I believe__ will be transferred is sitting right there.
+OPTIONS: whom I believe | who I believes | whom does I believe | No improvement
+ANSWER: D
+RULE: 3
+EXPLAIN: No improvement needed â€” "who" is correctly used as the subject of "will be transferred".
+%%%
+TYPE: IMPROVEMENT
+Q: __Never before the bank has witnessed__ such a huge rush of loan applicants.
+OPTIONS: Never before has the bank witnessed | Never before the bank had witnessed | Never the bank has witnessed before | No improvement
+ANSWER: A
+RULE: 12
+EXPLAIN: A sentence beginning with a negative adverb requires inversion: helping verb before the subject.
+%%%
+TYPE: IMPROVEMENT
+Q: __Hardly had the meeting begun than__ the power went off.
+OPTIONS: Hardly had the meeting begun when | Hardly the meeting had begun than | Hardly did the meeting begin than | No improvement
+ANSWER: A
+RULE: 14
+EXPLAIN: "Hardly" is always followed by "when", never "than".
+%%%
+TYPE: IMPROVEMENT
+Q: The new intern __availed the opportunity__ to work on live client projects.
+OPTIONS: availed himself of the opportunity | availed of himself the opportunity | availed himself the opportunity of | No improvement
+ANSWER: A
+RULE: 15
+EXPLAIN: "Avail" must be followed by a reflexive pronoun and "of": "availed himself of the opportunity".
+%%%
+TYPE: IMPROVEMENT
+Q: The five business partners __always support each other__ in every major decision.
+OPTIONS: always support one another | always supports each other | always support themselves | No improvement
+ANSWER: A
+RULE: 22
+EXPLAIN: Since there are more than two partners, "one another" should replace "each other".
+%%%
+TYPE: IMPROVEMENT
+Q: This is __very best scheme__ offered by the bank this festive season.
+OPTIONS: the very best scheme | very the best scheme | much the best scheme | No improvement
+ANSWER: A
+RULE: 24
+EXPLAIN: "Very" with a superlative must be preceded by "the".
+%%%
+TYPE: IMPROVEMENT
+Q: __Although the market crashed but__ the fund manager remained calm throughout the day.
+OPTIONS: Although the market crashed | Although the market has crashed but | Because the market crashed but | No improvement
+ANSWER: A
+RULE: 27
+EXPLAIN: "Although" never takes "but" in the main clause; "but" should simply be dropped.
+%%%
+TYPE: IMPROVEMENT
+Q: I have __already submit__ my resignation letter to the HR department.
+OPTIONS: already submitted | already submits | already submitting | No improvement
+ANSWER: A
+RULE: 29
+EXPLAIN: "Already" is used with the Perfect Tense, requiring "submitted".
+%%%
+TYPE: IMPROVEMENT
+Q: His careless attitude __is injurious for__ his career in the long run.
+OPTIONS: is injurious to | is injurious with | is injurious of | No improvement
+ANSWER: A
+RULE: 31
+EXPLAIN: "Injurious" is always followed by "to".
+%%%
+TYPE: IMPROVEMENT
+Q: This building __is three times larger than__ the old branch office.
+OPTIONS: is three times as large as | is three times more large than | is thrice times larger than | No improvement
+ANSWER: A
+RULE: 33
+EXPLAIN: "Times" is never followed by a comparative degree; it should pair with "as...as".
+%%%
+TYPE: IMPROVEMENT
+Q: The teacher asked the students __that why they__ had not submitted the assignment.
+OPTIONS: why they | that they why | why did they | No improvement
+ANSWER: A
+RULE: 34
+EXPLAIN: An indirect question should follow statement word order without "that" preceding the question word.
+%%%
+TYPE: IMPROVEMENT
+Q: Of the two schemes, this one is __more profitabler__ than the other.
+OPTIONS: more profitable | much profitable | profitabler | No improvement
+ANSWER: A
+RULE: 36
+EXPLAIN: A double comparative is incorrect; "more profitable" is the correct form.
+%%%
+TYPE: IMPROVEMENT
+Q: She has __little knowledge__ about few important banking terms used in the exam.
+OPTIONS: a little knowledge about a few important banking terms | little knowledge about a little important banking terms | a few knowledge about few banking terms | No improvement
+ANSWER: A
+RULE: 40
+EXPLAIN: "Knowledge" (uncountable) needs "a little" for a small positive amount, and "banking terms" (countable) needs "a few" to mean "some".
+%%%
+TYPE: IMPROVEMENT
+Q: Kindly __return back__ the loan documents at the earliest possible time.
+OPTIONS: return | send back | revert back | No improvement
+ANSWER: A
+RULE: 43
+EXPLAIN: "Return" already implies "back", so the redundant word should be dropped.
+%%%
+TYPE: IMPROVEMENT
+Q: __The table's leg__ was broken during the office shifting last week.
+OPTIONS: The leg of the table | The leg of table | Table's the leg | No improvement
+ANSWER: A
+RULE: 44
+EXPLAIN: Non-living things generally use "of" instead of the possessive apostrophe.
+%%%
+TYPE: IMPROVEMENT
+Q: This is __the most perfect__ solution to the ongoing fraud problem.
+OPTIONS: the perfect | the most perfectest | very perfect | No improvement
+ANSWER: A
+RULE: 46
+EXPLAIN: "Perfect" is an absolute adjective and cannot take "most".
+%%%
+TYPE: IMPROVEMENT
+Q: He was __quite all satisfied__ with the settlement offered by the company.
+OPTIONS: quite satisfied | all quite satisfied | quite all so satisfied | No improvement
+ANSWER: A
+RULE: 47
+EXPLAIN: "Quite" and "all" cannot be used together in the same sentence.
+%%%
+TYPE: IMPROVEMENT
+Q: A number of customers __has complained__ about the new mobile banking app.
+OPTIONS: have complained | has complain | having complained | No improvement
+ANSWER: A
+RULE: 51
+EXPLAIN: "A number of + plural noun" takes a plural verb.
+%%%
+TYPE: IMPROVEMENT
+Q: It is high time the government __takes strict action__ against loan defaulters.
+OPTIONS: took strict action | will take strict action | has taken strict action | No improvement
+ANSWER: A
+RULE: 52
+EXPLAIN: "It is high time" directly followed by a subject takes the past tense form.
+%%%
+TYPE: IMPROVEMENT
+Q: I don't know __to solve__ this reconciliation problem at all.
+OPTIONS: how to solve | for solving | to solving | No improvement
+ANSWER: A
+RULE: 54
+EXPLAIN: "Know" is never directly followed by "to"; a wh-word such as "how" is required.
+%%%
+TYPE: IMPROVEMENT
+Q: He would rather resign __than to accept__ this humiliating transfer.
+OPTIONS: than accept | than to accepting | rather than accepting | No improvement
+ANSWER: A
+RULE: 55
+EXPLAIN: "Rather" is followed by "than + base verb", without "to".
+%%%
+TYPE: IMPROVEMENT
+Q: The officer could not __help to notice__ the discrepancy in the ledger.
+OPTIONS: help noticing | help to noticing | help notice | No improvement
+ANSWER: A
+RULE: 60
+EXPLAIN: "Help" in this sense takes "V1+ing" (a gerund), not "to + V1".
+%%%
+TYPE: IMPROVEMENT
+Q: She is __a honest and hardworking__ employee of the bank.
+OPTIONS: an honest and hardworking | an honesty and hardworking | a honesty and hardworking | No improvement
+ANSWER: A
+RULE: 61
+EXPLAIN: "Honest" starts with a vowel sound (silent h), so it takes "an".
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly SIMILAR in meaning to "PRUDENT" (as often asked in banking vocabulary sections).
+OPTIONS: careless | wise | reckless | ignorant
+ANSWER: B
+EXPLAIN: "Prudent" means acting with careful judgement, i.e. wise or sensible.
+%%%
+TYPE: MCQ
+Q: Choose the word OPPOSITE in meaning to "AUSTERITY", often used in RBI monetary policy articles.
+OPTIONS: frugality | extravagance | simplicity | restraint
+ANSWER: B
+EXPLAIN: "Austerity" means strict economy/simple living; its opposite is "extravagance".
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "a person who lends money at a very high rate of interest".
+OPTIONS: banker | usurer | creditor | financier
+ANSWER: B
+EXPLAIN: A "usurer" is one who lends money at an excessively high (illegal) interest rate.
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "a document by which a person states how his property is to be disposed of after death".
+OPTIONS: affidavit | will | deed | mandate
+ANSWER: B
+EXPLAIN: A "will" is a legal document stating how one's property should be distributed after death.
+%%%
+TYPE: MCQ
+Q: Choose the correctly spelt word.
+OPTIONS: Recieve | Acheive | Occurrence | Concious
+ANSWER: C
+EXPLAIN: "Occurrence" is spelt correctly; the others should be "Receive", "Achieve", and "Conscious".
+%%%
+TYPE: MCQ
+Q: Choose the correctly spelt word (a frequent spot-the-correctly-spelt-word item in IBPS Clerk prelims).
+OPTIONS: Entreprenuer | Entrepreneur | Enterpreneur | Entreprenur
+ANSWER: B
+EXPLAIN: "Entrepreneur" is the correct spelling.
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly OPPOSITE in meaning to "LIABILITY" in a banking/finance context.
+OPTIONS: debt | asset | loan | deficit
+ANSWER: B
+EXPLAIN: In finance, "liability" (what is owed) is opposite to "asset" (what is owned).
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "money paid back for something already paid".
+OPTIONS: rebate | refund | reimbursement | discount
+ANSWER: B
+EXPLAIN: A "refund" is money returned for an amount already paid.
+%%%
+TYPE: MCQ
+Q: Choose the word closest in meaning to "INSOLVENT", commonly used in bank recovery notices.
+OPTIONS: wealthy | bankrupt | thrifty | prosperous
+ANSWER: B
+EXPLAIN: "Insolvent" means unable to pay one's debts, i.e. bankrupt.
+%%%
+TYPE: MCQ
+Q: Which word correctly fills the blank: "He gave ____ one-rupee coin to the beggar."
+OPTIONS: a | an | the | no article
+ANSWER: A
+RULE: 61
+EXPLAIN: The choice between "a" and "an" depends on sound, not spelling; "one" is pronounced with a consonant "w" sound ("won"), so it takes "a", not "an".
+%%%
+TYPE: MCQ
+Q: Identify the pair that correctly illustrates "beside" vs. "besides".
+OPTIONS: He sat beside her; besides, he also paid the bill | He sat besides her; beside, he also paid the bill | He sat beside her; beside, he also paid the bill | He sat besides her; besides, he also paid the bill
+ANSWER: A
+RULE: 102
+EXPLAIN: "Beside" means "next to", and "besides" means "in addition to" â€” this option uses each correctly.
+%%%
+TYPE: MCQ
+Q: Which sentence correctly uses "fewer" and "less"?
+OPTIONS: There are less customers today, so there is fewer rush | There are fewer customers today, so there is less rush | There is fewer customers today, so there are less rush | There are fewer customer today, so there is less rushes
+ANSWER: B
+RULE: 111
+EXPLAIN: "Fewer" is used with the countable noun "customers", and "less" is used with the uncountable noun "rush".
+%%%
+TYPE: MCQ
+Q: Which of the following uses "each other" and "one another" correctly?
+OPTIONS: The two partners always help one another; the five directors respect each other | The two partners always help each other; the five directors respect one another | The two partners always help each other; the five directors respect each other | The two partners always help one another; the five directors respect one another
+ANSWER: B
+RULE: 22
+EXPLAIN: "Each other" suits two partners, while "one another" suits the five directors (more than two).
+%%%
+TYPE: MCQ
+Q: Choose the option that correctly distinguishes "affect" and "effect".
+OPTIONS: The new policy will affect small businesses; its effect will be felt for years | The new policy will effect small businesses; its affect will be felt for years | The new policy will affect small businesses; its affect will be felt for years | The new policy will effect small businesses; its effect will be felt for years, and affect it more
+ANSWER: A
+RULE: 18
+EXPLAIN: "Affect" is a verb (to influence), and "effect" is a noun (the result).
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "one who is unable to pay one's debt".
+OPTIONS: debtor | defaulter | insolvent | creditor
+ANSWER: C
+EXPLAIN: "Insolvent" specifically means one who is unable to pay debts.
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly SIMILAR in meaning to "MERGE" (commonly appearing in banking-sector news).
+OPTIONS: separate | divide | amalgamate | dissolve
+ANSWER: C
+EXPLAIN: "Merge" means to combine or unite, similar to "amalgamate".
+%%%
+TYPE: MCQ
+Q: Choose the word OPPOSITE in meaning to "TRANSPARENT" as used in "transparent lending practices".
+OPTIONS: clear | obscure | evident | candid
+ANSWER: B
+EXPLAIN: "Transparent" (open, clear) is opposite to "obscure" (unclear, hidden).
+%%%
+TYPE: MCQ
+Q: Which sentence correctly demonstrates the "male/female vs man/woman" rule?
+OPTIONS: The zoo has a female tiger; the bank hired a woman manager | The zoo has a woman tiger; the bank hired a female manager | The zoo has a female tiger; the bank hired a female manager | The zoo has a male tiger; the bank hired a man manager for the ladies' branch
+ANSWER: A
+RULE: 67
+EXPLAIN: "Female" correctly describes the tiger's characteristic, and "woman" correctly describes the manager's role.
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "handwriting that cannot be read".
+OPTIONS: illegible | invisible | indelible | inedible
+ANSWER: A
+EXPLAIN: "Illegible" means not clear enough to be read.
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly OPPOSITE in meaning to "VOLATILE", as often used to describe stock markets.
+OPTIONS: unstable | stable | erratic | fluctuating
+ANSWER: B
+EXPLAIN: "Volatile" (unstable, liable to change) is opposite to "stable".
+%%%
+TYPE: MCQ
+Q: Choose the correctly spelt word.
+OPTIONS: Bureaucracy | Beurocracy | Bureaucrasy | Buerocracy
+ANSWER: A
+EXPLAIN: "Bureaucracy" is the correct spelling.
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "government by the few, especially the rich".
+OPTIONS: democracy | plutocracy | autocracy | bureaucracy
+ANSWER: B
+EXPLAIN: "Plutocracy" is government controlled by the wealthy.
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly SIMILAR in meaning to "LUCRATIVE", as in "a lucrative banking career".
+OPTIONS: profitable | futile | risky | modest
+ANSWER: A
+EXPLAIN: "Lucrative" means producing a lot of profit.
+%%%
+TYPE: MCQ
+Q: Choose the word OPPOSITE in meaning to "SCARCITY", as in "scarcity of funds".
+OPTIONS: shortage | abundance | deficiency | dearth
+ANSWER: B
+EXPLAIN: "Scarcity" (a shortage) is opposite to "abundance" (a large supply).
+%%%
+TYPE: MCQ
+Q: Which option correctly uses "elder" and "older"?
+OPTIONS: My elder brother is older than my neighbour's son | My older brother is elder than my neighbour's son | My elder brother is elder than my neighbour's son | My older brother is older than my neighbour's son, who is my elder
+ANSWER: A
+RULE: 112
+EXPLAIN: "Elder" is used within the family ("elder brother"), and "older" compares age with someone outside the family.
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "a place where money is coined".
+OPTIONS: treasury | mint | bank | exchequer
+ANSWER: B
+EXPLAIN: A "mint" is a place where coins are manufactured.
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly SIMILAR in meaning to "EMBEZZLE", relevant to bank fraud cases.
+OPTIONS: donate | misappropriate | invest | reimburse
+ANSWER: B
+EXPLAIN: "Embezzle" means to dishonestly misappropriate funds placed in one's trust.
+%%%
+TYPE: MCQ
+Q: Choose the word OPPOSITE in meaning to "SOLVENT", as in "the company remained solvent".
+OPTIONS: stable | bankrupt | wealthy | secure
+ANSWER: B
+EXPLAIN: "Solvent" (able to pay debts) is opposite to "bankrupt" (insolvent).
+%%%
+TYPE: MCQ
+Q: Which sentence correctly uses "beside" vs. "besides" AND "farther" vs. "further" together?
+OPTIONS: Besides the manager, no one sat farther from the desk; further discussion followed | Beside the manager, no one sat further from the desk; besides discussion followed | Besides the manager, no one sat further from the desk; farther discussion followed | Beside the manager, no one sat farther from the desk; further discussion followed
+ANSWER: D
+RULE: 102
+EXPLAIN: "Beside" (next to) fits the seating position, "farther" fits physical distance, and "further" (additional) fits the discussion.
+%%%
+TYPE: MATCH
+Q: Match the banking/business idioms with their correct meanings.
+LEFT: 1. In the red | 2. Break even | 3. Cut corners
+RIGHT: P. To do something poorly to save money or time | Q. To operate at a loss | R. To make neither profit nor loss
+OPTIONS: 1-Q, 2-R, 3-P | 1-P, 2-Q, 3-R | 1-R, 2-P, 3-Q | 1-Q, 2-P, 3-R
+ANSWER: A
+EXPLAIN: "In the red" = at a loss; "break even" = no profit/no loss; "cut corners" = do something cheaply/carelessly.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Bag and baggage | 2. Once in a blue moon | 3. Add fuel to the fire
+RIGHT: P. Rarely | Q. With all one's belongings | R. To worsen a situation
+OPTIONS: 1-Q, 2-P, 3-R | 1-P, 2-Q, 3-R | 1-Q, 2-R, 3-P | 1-R, 2-P, 3-Q
+ANSWER: A
+EXPLAIN: Bag and baggage = with all belongings; once in a blue moon = rarely; add fuel to the fire = worsen a situation.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Blue-chip | 2. Cook the books | 3. On the same page
+RIGHT: P. To falsify financial records | Q. In agreement | R. A financially stable, reliable investment
+OPTIONS: 1-R, 2-P, 3-Q | 1-P, 2-R, 3-Q | 1-Q, 2-P, 3-R | 1-R, 2-Q, 3-P
+ANSWER: A
+EXPLAIN: "Blue-chip" = reliable stock/company; "cook the books" = falsify accounts; "on the same page" = in agreement.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. A nest egg | 2. Tighten one's belt | 3. Pass the buck
+RIGHT: P. To reduce spending | Q. Money saved for the future | R. To shift responsibility to someone else
+OPTIONS: 1-Q, 2-P, 3-R | 1-P, 2-Q, 3-R | 1-R, 2-Q, 3-P | 1-Q, 2-R, 3-P
+ANSWER: A
+EXPLAIN: "Nest egg" = savings; "tighten one's belt" = spend less; "pass the buck" = shift blame/responsibility.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Bite the bullet | 2. Call it a day | 3. Back to square one
+RIGHT: P. To stop working on something for the day | Q. To face a difficult situation bravely | R. To return to the starting point
+OPTIONS: 1-Q, 2-P, 3-R | 1-P, 2-Q, 3-R | 1-R, 2-P, 3-Q | 1-Q, 2-R, 3-P
+ANSWER: A
+EXPLAIN: "Bite the bullet" = face difficulty bravely; "call it a day" = stop working; "back to square one" = start over.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. A drop in the ocean | 2. Under the weather | 3. Get the ball rolling
+RIGHT: P. Slightly unwell | Q. A very small, insignificant amount | R. To start a process
+OPTIONS: 1-Q, 2-P, 3-R | 1-P, 2-Q, 3-R | 1-R, 2-Q, 3-P | 1-Q, 2-R, 3-P
+ANSWER: A
+EXPLAIN: "A drop in the ocean" = negligible amount; "under the weather" = slightly unwell; "get the ball rolling" = start something.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Read between the lines | 2. See eye to eye | 3. Foot the bill
+RIGHT: P. To pay for something | Q. To agree completely | R. To understand a hidden meaning
+OPTIONS: 1-R, 2-Q, 3-P | 1-P, 2-Q, 3-R | 1-Q, 2-R, 3-P | 1-R, 2-P, 3-Q
+ANSWER: A
+EXPLAIN: "Read between the lines" = find hidden meaning; "see eye to eye" = agree; "foot the bill" = pay the cost.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. A penny for your thoughts | 2. Cut to the chase | 3. Keep your chin up
+RIGHT: P. To get straight to the point | Q. To stay positive despite difficulty | R. Asking what someone is thinking
+OPTIONS: 1-R, 2-P, 3-Q | 1-P, 2-Q, 3-R | 1-Q, 2-R, 3-P | 1-R, 2-Q, 3-P
+ANSWER: A
+EXPLAIN: "A penny for your thoughts" = asking someone's opinion; "cut to the chase" = get to the point; "keep your chin up" = stay positive.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Burn the midnight oil | 2. Hit the nail on the head | 3. Jump on the bandwagon
+RIGHT: P. To do exactly the right thing | Q. To join a popular trend | R. To work late into the night
+OPTIONS: 1-R, 2-P, 3-Q | 1-P, 2-R, 3-Q | 1-Q, 2-P, 3-R | 1-R, 2-Q, 3-P
+ANSWER: A
+EXPLAIN: "Burn the midnight oil" = work late; "hit the nail on the head" = be exactly right; "jump on the bandwagon" = follow a trend.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Go the extra mile | 2. Cut corners | 3. Above board
+RIGHT: P. Honest and legitimate | Q. To make an extra effort | R. To do something in a cheap/careless way
+OPTIONS: 1-Q, 2-R, 3-P | 1-P, 2-Q, 3-R | 1-R, 2-P, 3-Q | 1-Q, 2-P, 3-R
+ANSWER: A
+EXPLAIN: "Go the extra mile" = make extra effort; "cut corners" = do carelessly to save time/money; "above board" = honest, legitimate.
+%%%
