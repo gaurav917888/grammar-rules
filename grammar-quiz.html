@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>Test Yourself — 120 Rules of Grammar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f3ec;
+  --bg-elevated:#ffffff;
+  --bg-soft:#ece8dc;
+  --text:#282520;
+  --text-soft:#69645a;
+  --border:#ddd6c4;
+  --accent:#0e6e63;
+  --accent-soft:#0e6e6314;
+  --accent-contrast:#ffffff;
+  --correct:#1e7d4f;
+  --correct-bg:#1e7d4f14;
+  --incorrect:#a3402e;
+  --incorrect-bg:#a3402e14;
+  --note-bg:#0e6e6310;
+  --note-border:#0e6e6340;
+  --shadow:0 1px 3px rgba(30,25,15,0.08), 0 8px 24px -8px rgba(30,25,15,0.12);
+  --radius:14px;
+  color-scheme:light;
+}
+html[data-theme="dark"]{
+  --bg:#15171a;
+  --bg-elevated:#1c1f23;
+  --bg-soft:#20242a;
+  --text:#e9e6dc;
+  --text-soft:#a5a096;
+  --border:#33383f;
+  --accent:#57d6c2;
+  --accent-soft:#57d6c21c;
+  --accent-contrast:#0e2422;
+  --correct:#63c98a;
+  --correct-bg:#63c98a1c;
+  --incorrect:#e08a76;
+  --incorrect-bg:#e08a761c;
+  --note-bg:#57d6c214;
+  --note-border:#57d6c240;
+  --shadow:0 1px 3px rgba(0,0,0,0.3), 0 8px 24px -8px rgba(0,0,0,0.5);
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+html{-webkit-text-size-adjust:100%; text-size-adjust:100%;}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:"Source Serif 4", Georgia, "Times New Roman", serif;
+  line-height:1.6;
+  transition:background .25s ease, color .25s ease;
+  min-height:100vh;
+  overflow-x:hidden;
+  width:100%;
+  padding-bottom:76px; /* room for fixed bottom nav when present */
+}
+button, input, textarea, label{
+  font-family:"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+a{color:var(--accent);}
+
+/* ---------- Top bar ---------- */
+.qz-topbar{
+  position:sticky; top:0; z-index:20;
+  background:color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border);
+  padding:14px 20px;
+  display:flex; align-items:center; gap:12px;
+}
+.qz-brand{
+  display:flex; align-items:center; gap:9px;
+  font-family:"Source Serif 4", serif; font-weight:600; font-size:1rem;
+  color:var(--text); text-decoration:none; flex:1; min-width:0;
+}
+.qz-brand .mark{
+  width:26px;height:26px;border-radius:7px;
+  background:var(--accent); color:var(--accent-contrast);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700; font-size:.8rem; font-family:"Inter",sans-serif; flex-shrink:0;
+}
+.qz-brand span.label{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.qz-timer{
+  font-family:"Inter",sans-serif; font-weight:700; font-size:.92rem;
+  background:var(--bg-soft); border:1px solid var(--border);
+  padding:7px 14px; border-radius:20px; color:var(--text);
+  white-space:nowrap; flex-shrink:0; display:none;
+}
+.qz-timer.show{display:inline-block;}
+.qz-timer.low{color:var(--incorrect); border-color:var(--incorrect);}
+.qz-theme-toggle{
+  border:1px solid var(--border); background:var(--bg-soft); color:var(--text);
+  width:38px;height:38px; border-radius:10px;
+  display:flex;align-items:center;justify-content:center; cursor:pointer; flex-shrink:0;
+}
+.qz-theme-toggle svg{width:18px;height:18px;}
+
+/* ---------- Main container ---------- */
+.qz-main{
+  max-width:640px; margin:0 auto; padding:28px 20px 40px;
+}
+.qz-hero h1{font-size:1.6rem; margin:0 0 8px; font-weight:600;}
+.qz-hero p{color:var(--text-soft); margin:0 0 24px; font-size:.98rem;}
+
+.qz-card{
+  background:var(--bg-elevated); border:1px solid var(--border);
+  border-radius:var(--radius); box-shadow:var(--shadow); padding:22px;
+  margin-bottom:18px;
+}
+
+/* ---------- Setup screen ---------- */
+.qz-status{
+  display:flex; align-items:center; gap:10px;
+  padding:13px 15px; border-radius:11px;
+  background:var(--bg-soft); font-size:.9rem; color:var(--text-soft);
+  margin-bottom:20px;
+}
+.qz-status.error{background:var(--incorrect-bg); color:var(--incorrect);}
+.qz-spinner{
+  width:16px;height:16px;border-radius:50%;
+  border:2px solid var(--border); border-top-color:var(--accent);
+  animation:qzspin .7s linear infinite; flex-shrink:0;
+}
+@keyframes qzspin{to{transform:rotate(360deg);}}
+
+.qz-field{margin-bottom:22px;}
+.qz-field > label{
+  display:block; font-size:.78rem; font-weight:700; color:var(--text-soft);
+  margin-bottom:9px; text-transform:uppercase; letter-spacing:.05em;
+}
+.qz-count-choice{display:flex; gap:10px;}
+.qz-count-choice button{
+  flex:1; padding:16px 10px; border-radius:12px;
+  border:1.5px solid var(--border); background:var(--bg-soft);
+  color:var(--text); font-weight:700; font-size:1rem; cursor:pointer;
+  text-align:center;
+}
+.qz-count-choice button .sub{display:block; font-size:.74rem; font-weight:500; color:var(--text-soft); margin-top:4px;}
+.qz-count-choice button.active{border-color:var(--accent); background:var(--accent-soft); color:var(--accent);}
+
+.qz-btn-primary{
+  width:100%; padding:15px; border:none; border-radius:12px;
+  background:var(--accent); color:var(--accent-contrast);
+  font-weight:700; font-size:1rem; cursor:pointer;
+}
+.qz-btn-primary:disabled{opacity:.4; cursor:not-allowed;}
+.qz-btn-secondary{
+  padding:13px 18px; border:1px solid var(--border); border-radius:12px;
+  background:var(--bg-soft); color:var(--text);
+  font-weight:700; font-size:.92rem; cursor:pointer;
+}
+.qz-btn-outline{
+  padding:13px 18px; border:1.5px solid var(--incorrect); border-radius:12px;
+  background:transparent; color:var(--incorrect);
+  font-weight:700; font-size:.9rem; cursor:pointer;
+}
+
+/* ---------- History ---------- */
+.qz-history-item{
+  display:flex; align-items:center; gap:12px;
+  padding:13px 15px; border-radius:11px; background:var(--bg-soft);
+  margin-bottom:10px; cursor:pointer; border:1px solid transparent;
+  transition:border-color .12s ease;
+}
+.qz-history-item:hover{border-color:var(--accent);}
+.qz-history-score{
+  font-family:"Source Serif 4",serif; font-weight:700; font-size:1.2rem;
+  color:var(--accent); flex-shrink:0; width:58px; text-align:center;
+}
+.qz-history-meta{flex:1; min-width:0;}
+.qz-history-date{font-size:.82rem; color:var(--text-soft);}
+.qz-history-setsize{font-size:.78rem; color:var(--text-soft);}
+
+/* ---------- Taking screen ---------- */
+.qz-progress-row{
+  display:flex; align-items:center; justify-content:space-between;
+  margin-bottom:14px; gap:10px; flex-wrap:wrap;
+}
+.qz-progress-text{font-size:.84rem; color:var(--text-soft); font-weight:600;}
+.qz-submit-early{
+  font-size:.82rem; font-weight:700; color:var(--incorrect);
+  background:none; border:none; cursor:pointer; text-decoration:underline;
+}
+.qz-palette{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:20px;}
+.qz-dot{
+  width:32px; height:32px; border-radius:8px;
+  border:1px solid var(--border); background:var(--bg-soft);
+  color:var(--text-soft); font-size:.78rem; font-weight:700;
+  display:flex; align-items:center; justify-content:center; cursor:pointer;
+}
+.qz-dot.answered{background:var(--accent-soft); color:var(--accent); border-color:var(--accent);}
+.qz-dot.current{outline:2px solid var(--accent); outline-offset:1px;}
+
+.qz-type-badge{
+  display:inline-block; font-size:.68rem; font-weight:700; text-transform:uppercase;
+  letter-spacing:.05em; color:var(--accent); background:var(--accent-soft);
+  padding:4px 10px; border-radius:20px; margin-bottom:12px;
+}
+.qz-question-text{font-size:1.12rem; margin:0 0 18px; line-height:1.6;}
+.qz-columns{display:flex; gap:14px; margin-bottom:18px; flex-wrap:wrap;}
+.qz-column{flex:1; min-width:140px; background:var(--bg-soft); border-radius:10px; padding:13px 15px;}
+.qz-column .col-title{font-size:.72rem; font-weight:700; color:var(--text-soft); text-transform:uppercase; margin-bottom:8px;}
+.qz-column div{padding:3px 0; font-size:.95rem;}
+
+.qz-options{display:flex; flex-direction:column; gap:11px; margin-bottom:6px;}
+.qz-option{
+  display:flex; align-items:flex-start; gap:12px;
+  padding:14px 16px; border-radius:12px;
+  border:1.5px solid var(--border); background:var(--bg-elevated);
+  cursor:pointer; text-align:left; font-size:1rem; color:var(--text);
+  transition:border-color .12s ease, background .12s ease;
+  font-family:"Source Serif 4", serif;
+}
+.qz-option:hover:not(:disabled){border-color:var(--accent);}
+.qz-option .opt-letter{
+  flex-shrink:0; width:27px; height:27px; border-radius:7px;
+  background:var(--bg-soft); color:var(--text-soft);
+  display:flex; align-items:center; justify-content:center;
+  font-family:"Inter",sans-serif; font-size:.78rem; font-weight:700;
+}
+.qz-option.selected{border-color:var(--accent); background:var(--accent-soft);}
+.qz-option.selected .opt-letter{background:var(--accent); color:var(--accent-contrast);}
+.qz-option.correct{border-color:var(--correct); background:var(--correct-bg);}
+.qz-option.correct .opt-letter{background:var(--correct); color:#fff;}
+.qz-option.wrong{border-color:var(--incorrect); background:var(--incorrect-bg);}
+.qz-option.wrong .opt-letter{background:var(--incorrect); color:#fff;}
+.qz-option:disabled{cursor:default;}
+
+/* ---------- Fixed bottom nav ---------- */
+.qz-bottom-nav{
+  position:fixed; left:0; right:0; bottom:0; z-index:25;
+  background:var(--bg-elevated); border-top:1px solid var(--border);
+  padding:12px 16px; display:flex; gap:10px;
+  box-shadow:0 -4px 16px rgba(0,0,0,.08);
+}
+.qz-bottom-nav button{
+  flex:1; padding:14px; border-radius:12px; border:1px solid var(--border);
+  background:var(--bg-soft); color:var(--text); font-weight:700; font-size:.95rem; cursor:pointer;
+}
+.qz-bottom-nav button:disabled{opacity:.35; cursor:not-allowed;}
+.qz-bottom-nav button.primary{background:var(--accent); color:var(--accent-contrast); border-color:var(--accent);}
+
+/* ---------- Results screen ---------- */
+.qz-score-hero{text-align:center; padding:6px 0 22px;}
+.qz-score-big{font-family:"Source Serif 4",serif; font-size:2.8rem; font-weight:700; color:var(--accent); line-height:1;}
+.qz-score-sub{color:var(--text-soft); font-size:.92rem; margin-top:10px;}
+.qz-formula-note{font-size:.76rem; color:var(--text-soft); margin-top:6px;}
+.qz-breakdown{display:flex; flex-wrap:wrap; gap:10px; margin:20px 0 6px;}
+.qz-breakdown-item{flex:1; min-width:90px; background:var(--bg-soft); border-radius:11px; padding:13px; text-align:center;}
+.qz-breakdown-item .num{font-weight:700; font-size:1.2rem;}
+.qz-breakdown-item .num.pos{color:var(--correct);}
+.qz-breakdown-item .num.neg{color:var(--incorrect);}
+.qz-breakdown-item .lbl{font-size:.72rem; color:var(--text-soft); text-transform:uppercase; margin-top:3px;}
+
+/* ---------- Review screen ---------- */
+.qz-review-hint{
+  font-size:.86rem; color:var(--text-soft); background:var(--bg-soft);
+  border-radius:10px; padding:11px 14px; margin-bottom:14px;
+}
+.qz-review-reveal{
+  display:flex; flex-direction:column; gap:8px;
+  font-size:.88rem; margin:14px 0; padding:13px 15px;
+  border-radius:11px; background:var(--bg-soft);
+}
+.qz-review-reveal .row{display:flex; gap:8px; align-items:baseline; flex-wrap:wrap;}
+.qz-review-reveal .row .k{font-weight:700; color:var(--text-soft); flex-shrink:0; min-width:150px;}
+.qz-review-reveal .row .v.correct{color:var(--correct); font-weight:700;}
+.qz-review-reveal .row .v.wrong{color:var(--incorrect); font-weight:700;}
+.qz-explain{
+  background:var(--note-bg); border-left:3px solid var(--note-border);
+  border-radius:0 8px 8px 0; padding:13px 16px; font-size:.95rem;
+  color:var(--text-soft); margin-top:14px;
+}
+.qz-explain b{color:var(--text);}
+.qz-rule-links{display:flex; gap:8px; flex-wrap:wrap; margin-top:14px;}
+.qz-rule-link{
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:.82rem; font-weight:700; color:var(--accent); background:var(--accent-soft);
+  border:none; padding:9px 14px; border-radius:20px; cursor:pointer; text-decoration:none;
+}
+.qz-rule-link:hover{background:var(--accent); color:var(--accent-contrast);}
+.qz-review-actions{display:flex; gap:10px; margin-top:20px;}
+.qz-review-actions button{flex:1;}
+
+/* ---------- Custom confirm dialog ---------- */
+.qz-confirm-overlay{
+  position:fixed; inset:0; background:rgba(10,12,10,.55);
+  z-index:80; display:flex; align-items:center; justify-content:center; padding:20px;
+}
+.qz-confirm-box{
+  background:var(--bg-elevated); border:1px solid var(--border);
+  border-radius:16px; box-shadow:var(--shadow); padding:24px;
+  max-width:380px; width:100%;
+}
+.qz-confirm-box h3{margin:0 0 10px; font-size:1.1rem; font-weight:700;}
+.qz-confirm-box p{margin:0 0 20px; color:var(--text-soft); font-size:.94rem; line-height:1.55;}
+.qz-confirm-actions{display:flex; flex-direction:column; gap:9px;}
+.qz-confirm-actions button{
+  width:100%; padding:13px; border-radius:11px; border:1px solid var(--border);
+  background:var(--bg-soft); color:var(--text); font-weight:700; font-size:.92rem; cursor:pointer;
+  font-family:"Inter",sans-serif;
+}
+.qz-confirm-actions button.primary{background:var(--accent); color:var(--accent-contrast); border-color:var(--accent);}
+.qz-confirm-actions button.danger{background:transparent; color:var(--incorrect); border-color:var(--incorrect);}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px){
+  html{font-size:16px;}
+  .qz-main{padding:20px 16px 32px;}
+  .qz-card{padding:18px 16px;}
+  .qz-question-text{font-size:1.08rem;}
+  .qz-option{padding:13px 14px; font-size:.98rem;}
+  .qz-columns{flex-direction:column;}
+  .qz-score-big{font-size:2.3rem;}
+  .qz-count-choice{flex-direction:column;}
+  .qz-topbar{padding:12px 14px;}
+  .qz-brand .label{display:none;}
+  .qz-confirm-box{padding:20px;}
+}
+@media (min-width: 641px) and (max-width: 900px){
+  .qz-main{max-width:600px;}
+}
+
+</style>
+</head>
+<body>
+<header class="qz-topbar">
+  <a class="qz-brand" href="120-Rules-of-Grammar.html">
+    <span class="mark">Aa</span><span class="label">120 Rules of Grammar</span>
+  </a>
+  <span class="qz-timer" id="qzTimerDisplay">00:00</span>
+  <button type="button" class="qz-theme-toggle" id="qzThemeToggle" aria-label="Toggle dark mode"></button>
+</header>
+
+<main class="qz-main" id="qzMain"></main>
+
+<script>
+(function(){
+  "use strict";
+
+  var QUESTIONS_URL_CANDIDATES = [
+    "https://raw.githubusercontent.com/gaurav917888/grammar-rules/main/questions.txt",
+    "https://raw.githubusercontent.com/gaurav917888/grammar-rules/master/questions.txt"
+  ];
+  var MAIN_PAGE_URL = "120-Rules-of-Grammar.html";
+
+  var TIME_LIMITS = {12: 6 * 60, 25: 12 * 60};   // seconds
+  var MARK_CORRECT = 1, MARK_INCORRECT = -0.25, MARK_SKIPPED = 0;
+  var REINFORCE_MIN = 2, REINFORCE_MAX = 5;
+  var HISTORY_KEY = "grammar120_quiz_history";
+  var HISTORY_LIMIT = 3;
+  var BEST_KEY_PREFIX = "grammar120_best_";
+  var THEME_KEY = "grammar120_theme";
+
+  var allQuestions = [];
+  var quizSet = [];
+  var answers = {};          // index -> selected option index (original attempt)
+  var currentIndex = 0;
+  var timerInterval = null;
+  var secondsLeft = 0;
+  var chosenCount = 12;
+  var activeMode = 12;       // the 12/25 mode actually in play for the current/last attempt
+  var reviewIndex = 0;
+  var reviewRetryPicks = {}; // index -> option index chosen during review retry
+  var startedAt = null;
+
+  /* ================= Storage helpers ================= */
+  function storageGet(key, fallback){
+    try { var v = window.localStorage.getItem(key); return v === null ? fallback : v; }
+    catch(e){ return fallback; }
+  }
+  function storageSet(key, val){
+    try { window.localStorage.setItem(key, val); } catch(e){}
+  }
+  function storageGetJSON(key, fallback){
+    try {
+      var v = window.localStorage.getItem(key);
+      return v === null ? fallback : JSON.parse(v);
+    } catch(e){ return fallback; }
+  }
+  function storageSetJSON(key, val){
+    try { window.localStorage.setItem(key, JSON.stringify(val)); } catch(e){}
+  }
+
+  /* ================= Theme (shared with main page) ================= */
+  var ICON_SUN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>';
+  var ICON_MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>';
+  function getPreferredTheme(){
+    var stored = storageGet(THEME_KEY, null);
+    if (stored === "light" || stored === "dark") return stored;
+    var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    return prefersDark ? "dark" : "light";
+  }
+  var currentTheme = getPreferredTheme();
+  function applyTheme(theme){
+    document.documentElement.setAttribute("data-theme", theme);
+    var btn = document.getElementById("qzThemeToggle");
+    if (btn) btn.innerHTML = theme === "dark" ? ICON_SUN : ICON_MOON;
+    storageSet(THEME_KEY, theme);
+  }
+  applyTheme(currentTheme);
+  document.getElementById("qzThemeToggle").addEventListener("click", function(){
+    currentTheme = currentTheme === "dark" ? "light" : "dark";
+    applyTheme(currentTheme);
+  });
+
+  /* ================= Escaping ================= */
+  function esc(s){
+    return (s === null || s === undefined ? "" : s.toString())
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  /* ================= Custom confirm dialog (replaces native confirm()) ================= */
+  function showConfirm(opts){
+    return new Promise(function(resolve){
+      var overlay = document.createElement("div");
+      overlay.className = "qz-confirm-overlay";
+      var buttonsHtml = opts.buttons.map(function(b, i){
+        var cls = b.style ? (" " + b.style) : "";
+        return '<button type="button" class="' + cls.trim() + '" data-i="' + i + '">' + esc(b.label) + '</button>';
+      }).join("");
+      overlay.innerHTML =
+        '<div class="qz-confirm-box">' +
+          '<h3>' + esc(opts.title) + '</h3>' +
+          '<p>' + esc(opts.message) + '</p>' +
+          '<div class="qz-confirm-actions">' + buttonsHtml + '</div>' +
+        '</div>';
+      document.body.appendChild(overlay);
+      Array.prototype.forEach.call(overlay.querySelectorAll("button"), function(btn){
+        btn.addEventListener("click", function(){
+          var i = parseInt(btn.dataset.i, 10);
+          document.body.removeChild(overlay);
+          resolve(opts.buttons[i].value);
+        });
+      });
+    });
+  }
+
+  /* ================= Parsing questions.txt ================= */
+  function splitPipe(s){
+    return s.split("|").map(function(x){ return x.trim(); }).filter(function(x){ return x.length; });
+  }
+  function letterToIndex(letter){
+    if (!letter) return -1;
+    letter = letter.trim().toUpperCase().charAt(0);
+    return letter.charCodeAt(0) - 65;
+  }
+  function parseRules(field){
+    if (!field) return [];
+    return field.split(",").map(function(x){ return parseInt(x.trim(), 10); })
+      .filter(function(n){ return n >= 1 && n <= 120; });
+  }
+
+  function parseQuestionsText(text){
+    var lines = text.replace(/\r\n/g, "\n").split("\n");
+    var blocks = []; var current = [];
+    lines.forEach(function(line){
+      var trimmed = line.trim();
+      if (trimmed === "%%%"){ if (current.length) blocks.push(current); current = []; return; }
+      if (!trimmed || trimmed.charAt(0) === "#") return;
+      current.push(line);
+    });
+    if (current.length) blocks.push(current);
+
+    var parsed = [];
+    blocks.forEach(function(blockLines){
+      var fields = {};
+      blockLines.forEach(function(line){
+        var idx = line.indexOf(":");
+        if (idx === -1) return;
+        fields[line.slice(0, idx).trim().toUpperCase()] = line.slice(idx + 1).trim();
+      });
+
+      var type = (fields.TYPE || "MCQ").toUpperCase();
+      var item = {
+        type: type, q: fields.Q || "", explain: fields.EXPLAIN || "",
+        rules: parseRules(fields.RULE),
+        options: [], parts: null, left: null, right: null,
+        answerIndex: letterToIndex(fields.ANSWER || "")
+      };
+
+      try {
+        if (type === "SPOT_ERROR"){
+          var parts = fields.PARTS ? splitPipe(fields.PARTS) : [];
+          if (parts.length < 2) throw new Error();
+          item.parts = parts; item.options = parts.slice();
+        } else if (type === "MATCH"){
+          var left = fields.LEFT ? splitPipe(fields.LEFT) : [];
+          var right = fields.RIGHT ? splitPipe(fields.RIGHT) : [];
+          var opts = fields.OPTIONS ? splitPipe(fields.OPTIONS) : [];
+          if (!left.length || !right.length || opts.length < 2) throw new Error();
+          item.left = left; item.right = right; item.options = opts;
+        } else {
+          var options = fields.OPTIONS ? splitPipe(fields.OPTIONS) : [];
+          if (options.length < 2 || !item.q) throw new Error();
+          item.options = options;
+        }
+        if (item.answerIndex < 0 || item.answerIndex >= item.options.length) throw new Error();
+        parsed.push(item);
+      } catch(e){ /* skip malformed block silently */ }
+    });
+    return parsed;
+  }
+
+  function fetchQuestions(onDone){
+    var i = 0;
+    function tryNext(){
+      if (i >= QUESTIONS_URL_CANDIDATES.length){ onDone(null); return; }
+      fetch(QUESTIONS_URL_CANDIDATES[i++], {cache:"no-store"})
+        .then(function(res){ if (!res.ok) throw new Error(); return res.text(); })
+        .then(function(text){ onDone(text); })
+        .catch(tryNext);
+    }
+    tryNext();
+  }
+
+  /* ================= DOM refs ================= */
+  var main = document.getElementById("qzMain");
+  var timerDisplay = document.getElementById("qzTimerDisplay");
+
+  function setTimerVisible(visible){
+    timerDisplay.classList.toggle("show", visible);
+  }
+
+  /* ================= Screen: Loading / Setup ================= */
+  function renderLoading(){
+    setTimerVisible(false);
+    main.innerHTML =
+      '<div class="qz-hero"><h1>Test Yourself</h1><p>A timed practice test built from the grammar question bank.</p></div>' +
+      '<div class="qz-card"><div class="qz-status"><div class="qz-spinner"></div> Loading questions…</div></div>';
+  }
+
+  function renderError(){
+    setTimerVisible(false);
+    main.innerHTML =
+      '<div class="qz-hero"><h1>Test Yourself</h1><p>A timed practice test built from the grammar question bank.</p></div>' +
+      '<div class="qz-card">' +
+        '<div class="qz-status error">Couldn\'t load the question bank right now. Please check your connection and try again.</div>' +
+        '<button type="button" class="qz-btn-primary" id="qzRetryBtn">Try Again</button>' +
+      '</div>';
+    document.getElementById("qzRetryBtn").addEventListener("click", init);
+  }
+
+  function renderSetup(){
+    setTimerVisible(false);
+    var history = storageGetJSON(HISTORY_KEY, []);
+    var canStart = allQuestions.length >= 1;
+
+    var historyHtml = "";
+    if (history.length){
+      historyHtml = '<div class="qz-card"><div class="qz-field" style="margin-bottom:10px;"><label>Your last attempts</label></div>' +
+        history.map(function(h, i){
+          return '<div class="qz-history-item" data-hist="' + i + '">' +
+            '<div class="qz-history-score">' + h.marks + '</div>' +
+            '<div class="qz-history-meta">' +
+              '<div class="qz-history-date">' + esc(new Date(h.date).toLocaleString()) + '</div>' +
+              '<div class="qz-history-setsize">' + h.setSize + ' questions · ' + h.correctCount + ' correct, ' + h.incorrectCount + ' incorrect, ' + h.skippedCount + ' skipped</div>' +
+            '</div>' +
+          '</div>';
+        }).join("") +
+      '</div>';
+    }
+
+    main.innerHTML =
+      '<div class="qz-hero"><h1>Test Yourself</h1><p>A timed practice test built from the grammar question bank. Answer everything, then review explanations and jump straight to the rule.</p></div>' +
+      '<div class="qz-card">' +
+        '<div class="qz-field">' +
+          '<label>Number of questions</label>' +
+          '<div class="qz-count-choice">' +
+            '<button type="button" class="qcount' + (chosenCount === 12 ? " active" : "") + '" data-count="12">12 Questions<span class="sub">6 minutes</span></button>' +
+            '<button type="button" class="qcount' + (chosenCount === 25 ? " active" : "") + '" data-count="25">25 Questions<span class="sub">12 minutes</span></button>' +
+          '</div>' +
+        '</div>' +
+        '<button type="button" class="qz-btn-primary" id="qzStartBtn"' + (canStart ? "" : " disabled") + '>Start Test</button>' +
+        (canStart ? "" : '<div class="qz-status error" style="margin-top:14px;">No questions are available right now.</div>') +
+      '</div>' +
+      historyHtml;
+
+    Array.prototype.forEach.call(main.querySelectorAll(".qcount"), function(btn){
+      btn.addEventListener("click", function(){
+        chosenCount = parseInt(btn.dataset.count, 10);
+        Array.prototype.forEach.call(main.querySelectorAll(".qcount"), function(b){ b.classList.toggle("active", b === btn); });
+      });
+    });
+    var startBtn = document.getElementById("qzStartBtn");
+    if (startBtn) startBtn.addEventListener("click", confirmAndStart);
+
+    Array.prototype.forEach.call(main.querySelectorAll(".qz-history-item"), function(el){
+      el.addEventListener("click", function(){
+        var h = history[parseInt(el.dataset.hist, 10)];
+        renderHistoryReview(h);
+      });
+    });
+  }
+
+  /* ================= Adaptive question selection ================= */
+  function shuffle(arr){
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--){
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+
+  function getWeakRulesFromAttempt(attempt){
+    var weak = {};
+    if (!attempt) return weak;
+    attempt.questions.forEach(function(q, i){
+      var userAns = attempt.answers[i];
+      if (userAns !== q.answerIndex){
+        (q.rules || []).forEach(function(r){ weak[r] = true; });
+      }
+    });
+    return weak;
+  }
+
+  function buildQuizSet(n){
+    var history = storageGetJSON(HISTORY_KEY, []);
+    var lastAttempt = history[0] || null;
+    var weakRules = getWeakRulesFromAttempt(lastAttempt);
+    var weakRuleNums = Object.keys(weakRules).map(Number);
+
+    var reinforcement = [];
+    if (weakRuleNums.length){
+      var candidates = allQuestions.filter(function(q){
+        return (q.rules || []).some(function(r){ return weakRules[r]; });
+      });
+      candidates = shuffle(candidates);
+      reinforcement = candidates.slice(0, Math.min(REINFORCE_MAX, candidates.length));
+      if (reinforcement.length < REINFORCE_MIN) reinforcement = reinforcement.slice(0, 0);
+    }
+
+    var reinforceSet = reinforcement.slice();
+    var rest = shuffle(allQuestions.filter(function(q){ return reinforceSet.indexOf(q) === -1; }))
+      .slice(0, Math.max(0, n - reinforceSet.length));
+
+    return shuffle(reinforceSet.concat(rest)).slice(0, n);
+  }
+
+  /* ================= Start / confirm flow ================= */
+  function confirmAndStart(){
+    var n = Math.min(chosenCount, allQuestions.length);
+    var minutes = TIME_LIMITS[chosenCount] / 60;
+    showConfirm({
+      title: "Start the test?",
+      message: "You'll get " + n + " questions and " + minutes + " minutes on the clock. Once you start, the timer can't be paused. Ready?",
+      buttons: [
+        {label:"Cancel", value:false, style:""},
+        {label:"Start Test", value:true, style:"primary"}
+      ]
+    }).then(function(ok){
+      if (ok){ activeMode = chosenCount; beginQuiz(buildQuizSet(n), TIME_LIMITS[chosenCount]); }
+    });
+  }
+
+  function beginQuiz(set, totalSeconds){
+    quizSet = set;
+    answers = {};
+    currentIndex = 0;
+    reviewRetryPicks = {};
+    secondsLeft = totalSeconds;
+    startedAt = Date.now();
+    startTimer();
+    renderQuestion();
+  }
+
+  function startTimer(){
+    stopTimer();
+    setTimerVisible(true);
+    updateTimerDisplay();
+    timerInterval = setInterval(function(){
+      secondsLeft--;
+      updateTimerDisplay();
+      if (secondsLeft <= 0){ stopTimer(); finishQuiz(); }
+    }, 1000);
+  }
+  function stopTimer(){ if (timerInterval){ clearInterval(timerInterval); timerInterval = null; } }
+  function updateTimerDisplay(){
+    var m = Math.floor(Math.max(secondsLeft,0)/60), s = Math.max(secondsLeft,0)%60;
+    timerDisplay.textContent = (m<10?"0":"")+m+":"+(s<10?"0":"")+s;
+    timerDisplay.classList.toggle("low", secondsLeft <= 60);
+  }
+
+  /* ================= Rendering question content (shared by taking + review) ================= */
+  function ruleLinksHtml(item){
+    if (!item.rules || !item.rules.length) return "";
+    return '<div class="qz-rule-links">' + item.rules.map(function(r){
+      return '<a class="qz-rule-link" href="' + MAIN_PAGE_URL + '?rule=' + r + '" target="_blank" rel="noopener">Go to Rule ' + r + ' &rarr;</a>';
+    }).join("") + '</div>';
+  }
+
+  function renderQuestionContent(item){
+    var html = '<div class="qz-type-badge">' + esc(item.type.replace("_"," ")) + '</div>';
+    if (item.type === "MATCH"){
+      if (item.q) html += '<p class="qz-question-text">' + esc(item.q) + '</p>';
+      html += '<div class="qz-columns">' +
+        '<div class="qz-column"><div class="col-title">Column A</div>' + item.left.map(function(l){return '<div>'+esc(l)+'</div>';}).join("") + '</div>' +
+        '<div class="qz-column"><div class="col-title">Column B</div>' + item.right.map(function(r){return '<div>'+esc(r)+'</div>';}).join("") + '</div>' +
+      '</div>';
+    } else if (item.type === "SPOT_ERROR"){
+      var partsHtml = item.parts.map(function(p,i){
+        return '<span style="margin-right:6px;"><b>(' + String.fromCharCode(65+i) + ')</b> ' + esc(p) + '</span>';
+      }).join(" ");
+      html += '<p class="qz-question-text">' + partsHtml + '</p>';
+    } else if (item.type === "IMPROVEMENT"){
+      html += '<p class="qz-question-text">' + esc(item.q).replace(/__(.+?)__/g, '<u style="text-decoration-color:var(--accent); text-decoration-thickness:2px;">$1</u>') + '</p>';
+    } else if (item.type === "FILL_BLANK"){
+      html += '<p class="qz-question-text">' + esc(item.q).replace(/_{3,}/g, '<b style="color:var(--accent);">______</b>') + '</p>';
+    } else {
+      html += '<p class="qz-question-text">' + esc(item.q) + '</p>';
+    }
+    return html;
+  }
+
+  function optionLabel(item, i){
+    return item.type === "SPOT_ERROR" ? ("Part " + String.fromCharCode(65+i)) : item.options[i];
+  }
+
+  /* ================= Taking screen ================= */
+  function renderQuestion(){
+    var item = quizSet[currentIndex];
+    var selected = answers[currentIndex];
+
+    var optionsHtml = '<div class="qz-options">' + item.options.map(function(opt,i){
+      var letter = String.fromCharCode(65+i);
+      var isSel = selected === i;
+      return '<button type="button" class="qz-option' + (isSel?" selected":"") + '" data-i="' + i + '">' +
+        '<span class="opt-letter">' + letter + '</span><span>' + esc(optionLabel(item,i)) + '</span></button>';
+    }).join("") + '</div>';
+
+    var palette = '<div class="qz-palette">' + quizSet.map(function(_,i){
+      var cls = "qz-dot" + (answers.hasOwnProperty(i)?" answered":"") + (i===currentIndex?" current":"");
+      return '<div class="'+cls+'" data-jump="'+i+'">'+(i+1)+'</div>';
+    }).join("") + '</div>';
+
+    main.innerHTML =
+      '<div class="qz-card">' +
+        '<div class="qz-progress-row">' +
+          '<span class="qz-progress-text">Question ' + (currentIndex+1) + ' of ' + quizSet.length + ' &middot; ' + Object.keys(answers).length + ' answered</span>' +
+          '<button type="button" class="qz-submit-early" id="qzSubmitEarly">Submit test now</button>' +
+        '</div>' +
+        palette +
+        renderQuestionContent(item) +
+        optionsHtml +
+      '</div>' +
+      '<div class="qz-bottom-nav">' +
+        '<button type="button" id="qzPrev"' + (currentIndex===0?" disabled":"") + '>&larr; Previous</button>' +
+        (currentIndex === quizSet.length-1
+          ? '<button type="button" class="primary" id="qzNext">Finish Test</button>'
+          : '<button type="button" class="primary" id="qzNext">Next &rarr;</button>') +
+      '</div>';
+
+    Array.prototype.forEach.call(main.querySelectorAll(".qz-option"), function(btn){
+      btn.addEventListener("click", function(){
+        answers[currentIndex] = parseInt(btn.dataset.i,10);
+        renderQuestion();
+      });
+    });
+    Array.prototype.forEach.call(main.querySelectorAll(".qz-dot"), function(dot){
+      dot.addEventListener("click", function(){ currentIndex = parseInt(dot.dataset.jump,10); renderQuestion(); });
+    });
+    document.getElementById("qzPrev").addEventListener("click", function(){
+      if (currentIndex>0){ currentIndex--; renderQuestion(); }
+    });
+    document.getElementById("qzNext").addEventListener("click", function(){
+      if (currentIndex < quizSet.length-1){ currentIndex++; renderQuestion(); }
+      else confirmFinish();
+    });
+    document.getElementById("qzSubmitEarly").addEventListener("click", confirmFinish);
+  }
+
+  function confirmFinish(){
+    var unanswered = quizSet.length - Object.keys(answers).length;
+    showConfirm({
+      title:"Submit the test?",
+      message: unanswered > 0
+        ? ("You still have " + unanswered + " unanswered question" + (unanswered===1?"":"s") + ". Once submitted, you can't change any answers.")
+        : "Once submitted, you can't change any answers.",
+      buttons:[
+        {label:"Keep Going", value:false, style:""},
+        {label:"Submit Test", value:true, style:"primary"}
+      ]
+    }).then(function(ok){ if (ok) finishQuiz(); });
+  }
+
+  /* ================= Scoring ================= */
+  var TYPE_LABELS = {MCQ:"General MCQ", FILL_BLANK:"Fill in the Blank", IMPROVEMENT:"Sentence Improvement", SPOT_ERROR:"Spot the Error", MATCH:"Match the Following"};
+
+  function scoreQuiz(){
+    var correct=0, incorrect=0, skipped=0;
+    quizSet.forEach(function(item,i){
+      if (!answers.hasOwnProperty(i)) skipped++;
+      else if (answers[i] === item.answerIndex) correct++;
+      else incorrect++;
+    });
+    var marks = correct*MARK_CORRECT + incorrect*MARK_INCORRECT + skipped*MARK_SKIPPED;
+    marks = Math.round(marks*100)/100;
+    return {correct:correct, incorrect:incorrect, skipped:skipped, total:quizSet.length, marks:marks};
+  }
+
+  function saveAttempt(result){
+    var record = {
+      date: new Date().toISOString(),
+      setSize: quizSet.length,
+      questions: quizSet,
+      answers: answers,
+      marks: result.marks,
+      correctCount: result.correct,
+      incorrectCount: result.incorrect,
+      skippedCount: result.skipped
+    };
+    var history = storageGetJSON(HISTORY_KEY, []);
+    history.unshift(record);
+    if (history.length > HISTORY_LIMIT) history = history.slice(0, HISTORY_LIMIT);
+    storageSetJSON(HISTORY_KEY, history);
+
+    var bestKey = BEST_KEY_PREFIX + activeMode;
+    var best = parseFloat(storageGet(bestKey, "-999"));
+    if (result.marks > best) storageSet(bestKey, String(result.marks));
+    return Math.max(best, result.marks);
+  }
+
+  function finishQuiz(){
+    stopTimer();
+    setTimerVisible(false);
+    var result = scoreQuiz();
+    var best = saveAttempt(result);
+    reviewRetryPicks = {};
+    renderResults(result, best);
+  }
+
+  function renderResults(result, best){
+    var maxMarks = result.total * MARK_CORRECT;
+    var breakdownHtml = '<div class="qz-breakdown">' +
+      '<div class="qz-breakdown-item"><div class="num pos">' + result.correct + '</div><div class="lbl">Correct (+1)</div></div>' +
+      '<div class="qz-breakdown-item"><div class="num neg">' + result.incorrect + '</div><div class="lbl">Incorrect (&minus;0.25)</div></div>' +
+      '<div class="qz-breakdown-item"><div class="num">' + result.skipped + '</div><div class="lbl">Skipped (0)</div></div>' +
+    '</div>';
+
+    main.innerHTML =
+      '<div class="qz-card">' +
+        '<div class="qz-score-hero">' +
+          '<div class="qz-score-big">' + result.marks + ' <span style="font-size:1.4rem; color:var(--text-soft);">/ ' + maxMarks + '</span></div>' +
+          '<div class="qz-score-sub">Best on ' + result.total + '-question tests: ' + best + ' / ' + maxMarks + '</div>' +
+          '<div class="qz-formula-note">Scoring: +1 for correct, &minus;0.25 for incorrect, 0 for skipped</div>' +
+        '</div>' +
+        breakdownHtml +
+        '<button type="button" class="qz-btn-primary" id="qzReviewBtn" style="margin-top:8px;">Review Answers</button>' +
+      '</div>';
+
+    document.getElementById("qzReviewBtn").addEventListener("click", function(){ reviewIndex = 0; renderReview(); });
+  }
+
+  /* ================= Review screen (retry-then-reveal for wrong/skipped) ================= */
+  function renderReview(){
+    var item = quizSet[reviewIndex];
+    var userAns = answers[reviewIndex];
+    var wasCorrect = userAns === item.answerIndex;
+    var retryPick = reviewRetryPicks[reviewIndex];
+
+    var palette = '<div class="qz-palette">' + quizSet.map(function(q,i){
+      var correct = answers[i] === q.answerIndex;
+      var cls = "qz-dot" + (i===reviewIndex?" current":"") + (correct?" answered":"");
+      return '<div class="'+cls+'" data-jump="'+i+'" style="'+(correct?"":"opacity:.5;")+'">'+(i+1)+'</div>';
+    }).join("") + '</div>';
+
+    var bodyHtml;
+    if (wasCorrect){
+      var optsHtml = '<div class="qz-options">' + item.options.map(function(opt,i){
+        var cls = "qz-option" + (i===item.answerIndex ? " correct" : "");
+        return '<button type="button" class="' + cls + '" disabled><span class="opt-letter">' + String.fromCharCode(65+i) + '</span><span>' + esc(optionLabel(item,i)) + '</span></button>';
+      }).join("") + '</div>';
+      bodyHtml = renderQuestionContent(item) + optsHtml +
+        '<div class="qz-review-reveal"><div class="row"><span class="k">Result</span><span class="v correct">&check; You answered this correctly</span></div></div>' +
+        (item.explain ? '<div class="qz-explain"><b>Explanation:</b> ' + esc(item.explain) + '</div>' : "") +
+        ruleLinksHtml(item);
+    } else if (retryPick === undefined){
+      var optsHtml2 = '<div class="qz-options">' + item.options.map(function(opt,i){
+        return '<button type="button" class="qz-option" data-retry="' + i + '"><span class="opt-letter">' + String.fromCharCode(65+i) + '</span><span>' + esc(optionLabel(item,i)) + '</span></button>';
+      }).join("") + '</div>';
+      bodyHtml =
+        '<div class="qz-review-hint">' + (userAns === undefined ? "You skipped this one originally." : "You answered this incorrectly.") + ' Try it again before we reveal the answer.</div>' +
+        renderQuestionContent(item) + optsHtml2;
+    } else {
+      var optsHtml3 = '<div class="qz-options">' + item.options.map(function(opt,i){
+        var cls = "qz-option";
+        if (i === item.answerIndex) cls += " correct";
+        else if (i === retryPick) cls += " wrong";
+        return '<button type="button" class="' + cls + '" disabled><span class="opt-letter">' + String.fromCharCode(65+i) + '</span><span>' + esc(optionLabel(item,i)) + '</span></button>';
+      }).join("") + '</div>';
+      bodyHtml = renderQuestionContent(item) + optsHtml3 +
+        '<div class="qz-review-reveal">' +
+          '<div class="row"><span class="k">Originally picked</span><span class="v">' + (userAns === undefined ? "— (skipped)" : esc(optionLabel(item,userAns))) + '</span></div>' +
+          '<div class="row"><span class="k">Just now picked</span><span class="v ' + (retryPick===item.answerIndex?"correct":"wrong") + '">' + esc(optionLabel(item,retryPick)) + '</span></div>' +
+          '<div class="row"><span class="k">Correct answer</span><span class="v correct">' + esc(optionLabel(item,item.answerIndex)) + '</span></div>' +
+        '</div>' +
+        (item.explain ? '<div class="qz-explain"><b>Explanation:</b> ' + esc(item.explain) + '</div>' : "") +
+        ruleLinksHtml(item);
+    }
+
+    main.innerHTML =
+      '<div class="qz-card">' +
+        '<div class="qz-progress-row"><span class="qz-progress-text">Review &middot; Question ' + (reviewIndex+1) + ' of ' + quizSet.length + '</span></div>' +
+        palette +
+        bodyHtml +
+      '</div>' +
+      '<div class="qz-card">' +
+        '<div class="qz-review-actions">' +
+          '<button type="button" class="qz-btn-primary" id="qzReattemptBtn">Reattempt Test</button>' +
+          '<button type="button" class="qz-btn-secondary" id="qzBackToScore">Back to Score</button>' +
+        '</div>' +
+      '</div>' +
+      '<div class="qz-bottom-nav">' +
+        '<button type="button" id="qzRevPrev"' + (reviewIndex===0?" disabled":"") + '>&larr; Previous</button>' +
+        '<button type="button" class="primary" id="qzRevNext"' + (reviewIndex===quizSet.length-1?" disabled":"") + '>Next &rarr;</button>' +
+      '</div>';
+
+    Array.prototype.forEach.call(main.querySelectorAll(".qz-dot"), function(dot){
+      dot.addEventListener("click", function(){ reviewIndex = parseInt(dot.dataset.jump,10); renderReview(); });
+    });
+    var retryButtons = main.querySelectorAll(".qz-option[data-retry]");
+    Array.prototype.forEach.call(retryButtons, function(btn){
+      btn.addEventListener("click", function(){
+        reviewRetryPicks[reviewIndex] = parseInt(btn.dataset.retry,10);
+        renderReview();
+      });
+    });
+    document.getElementById("qzRevPrev").addEventListener("click", function(){ if (reviewIndex>0){ reviewIndex--; renderReview(); } });
+    document.getElementById("qzRevNext").addEventListener("click", function(){ if (reviewIndex<quizSet.length-1){ reviewIndex++; renderReview(); } });
+    document.getElementById("qzBackToScore").addEventListener("click", function(){ renderResults(scoreQuiz(), parseFloat(storageGet(BEST_KEY_PREFIX+activeMode,"0"))); });
+    document.getElementById("qzReattemptBtn").addEventListener("click", confirmReattempt);
+  }
+
+  function confirmReattempt(){
+    showConfirm({
+      title:"Reattempt this test?",
+      message:"Would you like the same set of questions again, or a fresh random set?",
+      buttons:[
+        {label:"Cancel", value:"cancel", style:""},
+        {label:"Same Questions", value:"same", style:""},
+        {label:"New Random Set", value:"new", style:"primary"}
+      ]
+    }).then(function(choice){
+      if (choice === "cancel") return;
+      var set = choice === "same" ? quizSet.slice() : buildQuizSet(quizSet.length);
+      beginQuiz(set, TIME_LIMITS[activeMode] || (quizSet.length * 30));
+    });
+  }
+
+  /* ================= History review (simple, read-only) ================= */
+  function renderHistoryReview(record){
+    quizSet = record.questions;
+    answers = record.answers;
+    activeMode = record.setSize;
+    reviewIndex = 0;
+    reviewRetryPicks = {};
+    quizSet.forEach(function(q, i){
+      if (answers[i] !== q.answerIndex) reviewRetryPicks[i] = answers[i];
+    });
+    renderReview();
+  }
+
+  /* ================= Init ================= */
+  function init(){
+    renderLoading();
+    fetchQuestions(function(text){
+      if (text === null){ renderError(); return; }
+      allQuestions = parseQuestionsText(text);
+      renderSetup();
+    });
+  }
+
+  init();
+
+})();
+
+</script>
+</body>
+</html>
