@@ -508,6 +508,484 @@ ANSWER: C
 RULE: 93
 EXPLAIN: "News" is always treated as singular; it should be "was shocking".
 %%%
+TYPE: MCQ
+Q: Identify the sentence that correctly combines "neither of the two" agreement with the correct comparative structure.
+OPTIONS: Neither of the two policies offers better coverage than the other | Neither of the two policies offer a better coverage than the other | Neither of the two policies offers a best coverage than the other | Neither of the two policies offer best coverage than the other
+ANSWER: A
+RULE: 114, 36
+EXPLAIN: "Neither of the two policies" takes a singular verb ("offers"), and "better" (comparative, for two things) is correct, not "best".
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "a person who guarantees to pay a debt if the original borrower fails to do so".
+OPTIONS: co-signer | guarantor | trustee | mortgagor
+ANSWER: B
+EXPLAIN: A "guarantor" is a person who agrees to be responsible for another's debt if they default.
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two rival claimants to the deposit ____ that the funds rightfully ____ to them.
+OPTIONS: insist / belong | insists / belong | insist / belongs | insists / belongs
+ANSWER: B
+RULE: 114, 28
+EXPLAIN: "Each of the two rival claimants" takes a singular verb ("insists"), and "belong" (a verb of possession with no -ing form issue here) correctly stays in base form after "that".
+%%%
+TYPE: IMPROVEMENT
+Q: Neither of the two clauses added in the final draft __protect the minority shareholders__ adequately.
+OPTIONS: protects the minority shareholders | protect the minority shareholder | protects the minority shareholder | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Neither of" takes a singular verb, requiring "protects".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very clauses meant to protect the guarantor | was quietly | removed | during the final negotiation | No error
+ANSWER: B
+RULE: 24
+EXPLAIN: "The very clauses" is plural; it should be "were quietly removed".
+%%%
+TYPE: SPOT_ERROR
+PARTS: A string of unusual transactions on the account | was flagged | automatically | by the bank's monitoring software | No error
+ANSWER: E
+RULE: 56
+EXPLAIN: No error â€” "a string of" is treated as singular, correctly taking "was flagged".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The two co-borrowers, neither of whom earn | a stable income, | were denied | the joint home loan | No error
+ANSWER: A
+RULE: 114
+EXPLAIN: "Neither of whom" takes a singular verb; it should be "neither of whom earns a stable income".
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "money or property given to someone as a gift, especially in a will".
+OPTIONS: bequest | endowment | dividend | annuity
+ANSWER: A
+EXPLAIN: A "bequest" is a gift of personal property left to someone in a will.
+%%%
+TYPE: FILL_BLANK
+Q: Neither of the two clauses added in the final draft ____ the minority shareholders ____.
+OPTIONS: protect / adequately | protects / adequately | protect / adequate | protects / adequate
+ANSWER: B
+RULE: 114
+EXPLAIN: "Neither of" takes a singular verb ("protects"), and "adequately" (adverb) modifies the verb.
+%%%
+TYPE: SPOT_ERROR
+PARTS: It is vital that every transaction above the threshold | is reported | to the | financial intelligence unit | No error
+ANSWER: B
+RULE: 34
+EXPLAIN: After "it is vital that", the subjunctive base form is used; it should be "be reported to the financial intelligence unit".
+%%%
+TYPE: IMPROVEMENT
+Q: Each of the two joint account holders __insist on receiving__ separate statements every month.
+OPTIONS: insists on receiving | insist for receiving | insists for receive | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Each of the two joint account holders" takes a singular verb, requiring "insists".
+%%%
+TYPE: FILL_BLANK
+Q: The two co-borrowers, neither of whom ____ a stable income, ____ denied the joint home loan.
+OPTIONS: earn / were | earns / were | earn / was | earns / was
+ANSWER: B
+RULE: 114
+EXPLAIN: "Neither of whom" takes a singular verb ("earns"), and "the two co-borrowers" (plural) takes "were denied".
+%%%
+TYPE: IMPROVEMENT
+Q: Each of the two co-applicants for the credit card __undergo a separate__ background verification.
+OPTIONS: undergoes a separate | undergo separate | undergoes separately | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Each of the two co-applicants" takes a singular verb, requiring "undergoes".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The policy demands that every new account holder | provides | valid | identification documents | No error
+ANSWER: B
+RULE: 34
+EXPLAIN: After "demands that", the subjunctive base form is used; it should be "provide valid identification documents".
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two nominees mentioned in the will ____ the validity ____ the document in court.
+OPTIONS: contest / of | contests / of | contest / for | contests / for
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two nominees" takes a singular verb ("contests"), and "validity of" is correct.
+%%%
+TYPE: FILL_BLANK
+Q: The bank recommended that the customer ____ a minimum balance to avoid ____ charges.
+OPTIONS: maintains / penalty | maintain / penalty | maintains / penalties | maintain / penalties
+ANSWER: B
+RULE: 34
+EXPLAIN: After "recommended that", the subjunctive base form "maintain" is used.
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two rival banks bidding for the distressed asset ____ it quite ____.
+OPTIONS: value / differently | values / differently | value / different | values / different
+ANSWER: B
+RULE: 114, 103
+EXPLAIN: "Each of the two rival banks" takes a singular verb ("values"), and "differently" (adverb) modifies the verb.
+%%%
+TYPE: IMPROVEMENT
+Q: The two co-borrowers, neither of whom __earn a stable income__, were denied the joint home loan.
+OPTIONS: earns a stable income | earns stable incomes | earn a stable incomes | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Neither of whom" takes a singular verb, requiring "earns".
+%%%
+TYPE: IMPROVEMENT
+Q: __None of the two witnesses to the transaction were willing__ to testify in court.
+OPTIONS: Neither of the two witnesses to the transaction was willing | None of the two witnesses to the transaction was willing | Neither of the two witnesses to the transaction were willing | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: For exactly two witnesses, "neither" is preferred, paired with the singular "was willing".
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Put one's house in order | 2. Live hand to mouth | 3. Close the books
+RIGHT: P. To have barely enough money to survive | Q. To organise and settle one's own affairs properly | R. To finalise accounts at the end of a period
+OPTIONS: 1-Q, 2-P, 3-R | 1-P, 2-Q, 3-R | 1-R, 2-P, 3-Q | 1-Q, 2-R, 3-P
+ANSWER: A
+EXPLAIN: "Put one's house in order" = organise one's affairs; "live hand to mouth" = barely surviving financially; "close the books" = finalise accounts.
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two joint account holders | insist | on receiving | separate statements every month | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two joint account holders" takes a singular verb; it should be "insists on receiving separate statements".
+%%%
+TYPE: SPOT_ERROR
+PARTS: None of the two witnesses to the transaction | were | willing | to testify in court | No error
+ANSWER: A
+RULE: 114
+EXPLAIN: For exactly two witnesses, "neither" should be used instead of "none"; it should be "Neither of the two witnesses".
+%%%
+TYPE: SPOT_ERROR
+PARTS: A shortlist of eligible candidates for the loan waiver scheme | was released | ahead | of the festive season | No error
+ANSWER: E
+RULE: 56
+EXPLAIN: No error â€” "a shortlist of" is treated as singular, correctly taking "was released".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two nominees mentioned in the will | contest | the validity | of the document in court | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two nominees" takes a singular verb; it should be "contests the validity of the document".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two co-applicants for the credit card | undergo | a separate | background verification | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two co-applicants" takes a singular verb; it should be "undergoes a separate background verification".
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. In the black vs in the red | 2. Bottom line | 3. Cut one's losses
+RIGHT: P. To stop an unprofitable venture before further loss | Q. Profitable vs operating at a loss | R. The final, most important consideration or figure
+OPTIONS: 1-Q, 2-R, 3-P | 1-P, 2-Q, 3-R | 1-R, 2-P, 3-Q | 1-Q, 2-P, 3-R
+ANSWER: A
+EXPLAIN: "In the black/in the red" = profitable/at a loss; "bottom line" = the key final figure; "cut one's losses" = stop before further loss.
+%%%
+TYPE: FILL_BLANK
+Q: The very charges imposed without prior disclosure ____ struck down ____ the banking ombudsman.
+OPTIONS: was / by | were / by | was / from | were / from
+ANSWER: B
+RULE: 24, 58
+EXPLAIN: "The very charges" is plural ("were struck down"), and "by" is used for the agent.
+%%%
+TYPE: IMPROVEMENT
+Q: A batch of loan files flagged for review __contain inconsistencies__ in the income documentation.
+OPTIONS: contains inconsistencies | contain an inconsistencies | contains inconsistency's | No improvement
+ANSWER: A
+RULE: 56
+EXPLAIN: "A batch of" is treated as singular, requiring "contains".
+%%%
+TYPE: IMPROVEMENT
+Q: The policy demands that every new account holder __provides valid identification__ documents.
+OPTIONS: provide valid identification | provided valid identification | will provide valid identification | No improvement
+ANSWER: A
+RULE: 34
+EXPLAIN: After "demands that", the subjunctive base form "provide" is used.
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two joint account holders ____ on receiving separate ____ every month.
+OPTIONS: insist / statements | insists / statements | insist / statement | insists / statement
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two joint account holders" takes a singular verb ("insists").
+%%%
+TYPE: FILL_BLANK
+Q: The policy demands that every new account holder ____ valid identification ____.
+OPTIONS: provides / documents | provide / documents | provides / document | provide / document
+ANSWER: B
+RULE: 34
+EXPLAIN: After "demands that", the subjunctive base form "provide" is used, and "documents" (plural) fits multiple IDs.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The bank recommended that the customer | maintains | a minimum balance | to avoid penalty charges | No error
+ANSWER: B
+RULE: 34
+EXPLAIN: After "recommended that", the subjunctive base form is used; it should be "maintain a minimum balance".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very charges imposed without prior disclosure | was struck down | by | the banking ombudsman | No error
+ANSWER: B
+RULE: 24
+EXPLAIN: "The very charges" is plural; it should be "were struck down by the banking ombudsman".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very interest rates promised in the advertisement | was later | revised | downward without notice | No error
+ANSWER: B
+RULE: 24
+EXPLAIN: "The very interest rates" is plural; it should be "were later revised downward".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very promises made to attract depositors during the crisis | were quietly | forgotten | once stability returned | No error
+ANSWER: E
+RULE: 24
+EXPLAIN: No error â€” "the very promises" (plural) correctly takes "were quietly forgotten".
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two joint borrowers on the mortgage ____ equal responsibility ____ repayment.
+OPTIONS: share / for | shares / for | share / of | shares / of
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two joint borrowers" takes a singular verb ("shares"), and "responsibility for" is correct.
+%%%
+TYPE: SPOT_ERROR
+PARTS: A batch of loan files flagged for review | contain | inconsistencies | in the income documentation | No error
+ANSWER: B
+RULE: 56
+EXPLAIN: "A batch of" is treated as singular; it should be "contains inconsistencies in the income documentation".
+%%%
+TYPE: IMPROVEMENT
+Q: Each of the two guarantors named in the loan agreement __assume equal liability__ for default.
+OPTIONS: assumes equal liability | assume an equal liability | assumes equally liability | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Each of the two guarantors" takes a singular verb, requiring "assumes".
+%%%
+TYPE: IMPROVEMENT
+Q: The bank recommended that the customer __maintains a minimum balance__ to avoid penalty charges.
+OPTIONS: maintain a minimum balance | maintained a minimum balance | will maintain a minimum balance | No improvement
+ANSWER: A
+RULE: 34
+EXPLAIN: After "recommended that", the subjunctive base form "maintain" is used.
+%%%
+TYPE: MCQ
+Q: Which sentence correctly combines "each of the two" agreement with the subjunctive rule after "demands that"?
+OPTIONS: The bank demands that each of the two guarantors sign the undertaking separately | The bank demands that each of the two guarantors signs the undertaking separately | The bank demands that each of the two guarantors signed the undertaking separately | The bank demands that each of the two guarantors will sign the undertaking separately
+ANSWER: A
+RULE: 34, 114
+EXPLAIN: After "demands that", the subjunctive base form "sign" is used, overriding the usual "each of" singular agreement in this construction.
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two rival claimants to the deposit | insist | that the funds | rightfully belong to them | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two rival claimants" takes a singular verb; it should be "insists that the funds rightfully belong to them".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Neither of the two clauses added in the final draft | protect | the minority | shareholders adequately | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Neither of" takes a singular verb; it should be "protects the minority shareholders adequately".
+%%%
+TYPE: MCQ
+Q: Choose the word OPPOSITE in meaning to "SOLVENCY", as used in "maintaining the bank's solvency".
+OPTIONS: stability | liquidity | insolvency | soundness
+ANSWER: C
+EXPLAIN: "Solvency" (ability to pay debts) is opposite to "insolvency" (inability to pay debts).
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very undertaking signed by both guarantors | were later | challenged | in a civil suit | No error
+ANSWER: B
+RULE: 24
+EXPLAIN: "The very undertaking" is singular; it should be "was later challenged in a civil suit".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very terms and conditions customers rarely read | were designed | deliberately | to be confusing | No error
+ANSWER: E
+RULE: 24
+EXPLAIN: No error â€” "the very terms and conditions" (plural) correctly takes "were designed".
+%%%
+TYPE: FILL_BLANK
+Q: The regulation requires that every applicant ____ all existing loans at the time ____ application.
+OPTIONS: discloses / of | disclose / of | discloses / for | disclose / for
+ANSWER: B
+RULE: 34
+EXPLAIN: After "requires that", the subjunctive base form "disclose" is used, and "at the time of" is the correct phrase.
+%%%
+TYPE: MCQ
+Q: Identify the sentence that correctly combines "neither of" agreement with the correct preposition for "aware".
+OPTIONS: Neither of the nominees was aware of the policy's terms | Neither of the nominees were aware about the policy's terms | Neither of the nominees was aware about the policy's terms | Neither of the nominees were aware of the policy's terms
+ANSWER: A
+RULE: 114
+EXPLAIN: "Neither of" takes a singular verb ("was aware"), and "aware of" is the correct preposition.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The regulation requires that every applicant | disclose | all existing | loans at the time of application | No error
+ANSWER: E
+RULE: 34
+EXPLAIN: No error â€” "disclose" is the correct subjunctive base form after "requires that".
+%%%
+TYPE: IMPROVEMENT
+Q: Each of the two joint borrowers on the mortgage __share equal responsibility__ for repayment.
+OPTIONS: shares equal responsibility | share an equal responsibility | shares equally responsibility | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Each of the two joint borrowers" takes a singular verb, requiring "shares".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two joint borrowers on the mortgage | share | equal | responsibility for repayment | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two joint borrowers" takes a singular verb; it should be "shares equal responsibility for repayment".
+%%%
+TYPE: FILL_BLANK
+Q: ____ of the two witnesses to the transaction ____ willing to testify in court.
+OPTIONS: None / was | Neither / was | None / were | Neither / were
+ANSWER: B
+RULE: 114
+EXPLAIN: For exactly two witnesses, "neither" is preferred, taking the singular "was willing".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very safeguards this insurance policy claims to offer | was found | to be | riddled with exclusions | No error
+ANSWER: B
+RULE: 24
+EXPLAIN: "The very safeguards" is plural; it should be "were found to be riddled with exclusions".
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Sign away one's rights | 2. Fine print | 3. At one's own risk
+RIGHT: P. The detailed conditions of a contract, often overlooked | Q. To give up an entitlement, often unknowingly | R. Without any guarantee of protection or compensation
+OPTIONS: 1-Q, 2-P, 3-R | 1-P, 2-Q, 3-R | 1-R, 2-P, 3-Q | 1-Q, 2-R, 3-P
+ANSWER: A
+EXPLAIN: "Sign away one's rights" = relinquish an entitlement; "fine print" = detailed contract terms; "at one's own risk" = no guarantee of protection.
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two junior clerks accused of the fraud ____ complete ____.
+OPTIONS: maintain / innocence | maintains / innocence | maintain / innocences | maintains / innocences
+ANSWER: B
+RULE: 114, 94
+EXPLAIN: "Each of the two junior clerks" takes a singular verb ("maintains"), and "innocence" (uncountable) has no plural.
+%%%
+TYPE: FILL_BLANK
+Q: A batch of loan files flagged for review ____ inconsistencies in the income ____.
+OPTIONS: contain / documentation | contains / documentation | contain / documentations | contains / documentations
+ANSWER: B
+RULE: 56, 94
+EXPLAIN: "A batch of" is treated as singular ("contains"), and "documentation" is uncountable.
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two co-signers on the guarantee ____ fully liable ____ the outstanding balance.
+OPTIONS: remain / for | remains / for | remain / of | remains / of
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two co-signers" takes a singular verb ("remains"), and "liable for" is correct.
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly SIMILAR in meaning to "ONEROUS", as in "the onerous conditions attached to the loan".
+OPTIONS: light | burdensome | simple | flexible
+ANSWER: B
+EXPLAIN: "Onerous" means involving a heavy obligation or burden.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very assurances given at the time of account opening | were conveniently | forgotten | during the dispute | No error
+ANSWER: E
+RULE: 24
+EXPLAIN: No error â€” "the very assurances" (plural) correctly takes "were conveniently forgotten".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two junior clerks accused of the fraud | maintain | their | complete innocence | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two junior clerks" takes a singular verb; it should be "maintains complete innocence".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two guarantors named in the loan agreement | assume | equal | liability for default | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two guarantors" takes a singular verb; it should be "assumes equal liability for default".
+%%%
+TYPE: IMPROVEMENT
+Q: Each of the two co-signers on the guarantee __remain fully liable__ for the outstanding balance.
+OPTIONS: remains fully liable | remain fully liability | remains full liable | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Each of the two co-signers" takes a singular verb, requiring "remains".
+%%%
+TYPE: MCQ
+Q: Choose the word OPPOSITE in meaning to "EQUITABLE", as in "an equitable distribution of the settlement funds".
+OPTIONS: fair | just | unfair | balanced
+ANSWER: C
+EXPLAIN: "Equitable" (fair and impartial) is opposite to "unfair".
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "a person who inherits property or a title from another".
+OPTIONS: benefactor | heir | testator | trustee
+ANSWER: B
+EXPLAIN: An "heir" is a person legally entitled to inherit property or a title.
+%%%
+TYPE: MCQ
+Q: Which sentence correctly combines "each of the two" agreement with the correct preposition for "differ"?
+OPTIONS: Each of the two banks differs in its valuation of the distressed asset | Each of the two banks differ in its valuation of the distressed asset | Each of the two banks differs from its valuation of the distressed asset | Each of the two banks differ from its valuation of the distressed asset
+ANSWER: A
+RULE: 114, 81
+EXPLAIN: "Each of the two banks" takes a singular verb ("differs"), and "differs in" (regarding an aspect) fits better than "differs from".
+%%%
+TYPE: IMPROVEMENT
+Q: The very charges imposed without prior disclosure __was struck down__ by the banking ombudsman.
+OPTIONS: were struck down | was strike down | were striking down | No improvement
+ANSWER: A
+RULE: 24
+EXPLAIN: "The very charges" is plural, requiring "were struck down".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two rival banks bidding for the distressed asset | value | it | quite differently | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two rival banks" takes a singular verb; it should be "values it quite differently".
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly SIMILAR in meaning to "DEFAULT (noun)", as in "the loan went into default".
+OPTIONS: settlement | non-payment | renewal | extension
+ANSWER: B
+EXPLAIN: "Default" refers to failure to fulfil an obligation, especially failure to repay a debt.
+%%%
+TYPE: SPOT_ERROR
+PARTS: A cluster of red flags in the loan file, each seemingly minor, | was enough | to trigger | a full compliance review | No error
+ANSWER: E
+RULE: 56
+EXPLAIN: No error â€” "a cluster of" is treated as singular, correctly taking "was enough".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two co-signers on the guarantee | remain | fully | liable for the outstanding balance | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two co-signers" takes a singular verb; it should be "remains fully liable for the outstanding balance".
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two co-applicants for the credit card ____ a separate background ____.
+OPTIONS: undergo / verification | undergoes / verification | undergo / verifications | undergoes / verifications
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two co-applicants" takes a singular verb ("undergoes").
+%%%
+TYPE: FILL_BLANK
+Q: Neither of the two nominees named in the policy ____ aware of their entitlement ____ much later.
+OPTIONS: was / until | were / until | was / by | were / by
+ANSWER: A
+RULE: 114
+EXPLAIN: "Neither of" takes a singular verb ("was aware"), and "until much later" fits the delayed realisation.
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two guarantors named in the loan agreement ____ equal liability ____ default.
+OPTIONS: assume / for | assumes / for | assume / of | assumes / of
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two guarantors" takes a singular verb ("assumes"), and "liability for" is the correct preposition.
+%%%
+TYPE: SPOT_ERROR
+PARTS: Neither of the two nominees named in the policy | were aware | of their | entitlement until much later | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Neither of" takes a singular verb; it should be "was aware of their entitlement".
+%%%
 TYPE: SPOT_ERROR
 PARTS: We bought | some new furnitures | for | the reception area | No error
 ANSWER: B
@@ -1604,6 +2082,242 @@ Q: Select the correct ONE-WORD SUBSTITUTION for "a person appointed to manage th
 OPTIONS: trustee | receiver | executor | custodian
 ANSWER: B
 EXPLAIN: A "receiver" is appointed to manage a company's assets during insolvency proceedings.
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two proposed clauses, though drafted separately, | serve | the same | underlying purpose | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two proposed clauses" takes a singular verb; it should be "serves the same underlying purpose".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two whistleblowers involved in the case | face | possible | retaliation from their employer | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two whistleblowers" takes a singular verb; it should be "faces possible retaliation from their employer".
+%%%
+TYPE: SPOT_ERROR
+PARTS: None of the two auditors assigned to the case | was willing | to sign off | on the final report | No error
+ANSWER: A
+RULE: 114
+EXPLAIN: For exactly two auditors, "neither" (not "none") should be used; it should be "Neither of the two auditors".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two competing lenders | offer | slightly different | interest rates on the same loan | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two competing lenders" takes a singular verb; it should be "offers slightly different interest rates".
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two proposed clauses, though drafted separately, ____ the same underlying ____.
+OPTIONS: serve / purpose | serves / purpose | serve / purposes | serves / purposes
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two proposed clauses" takes a singular verb ("serves").
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Paper over the cracks | 2. Come clean | 3. Throw someone under the bus
+RIGHT: P. To confess the truth after concealing it | Q. To disguise a problem rather than solve it | R. To blame or betray someone to protect oneself
+OPTIONS: 1-Q, 2-P, 3-R | 1-P, 2-Q, 3-R | 1-R, 2-P, 3-Q | 1-Q, 2-R, 3-P
+ANSWER: A
+EXPLAIN: "Paper over the cracks" = disguise a problem; "come clean" = confess; "throw someone under the bus" = betray to protect oneself.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very numbers cited in the prospectus | were later | proven | to be wildly optimistic | No error
+ANSWER: E
+RULE: 24
+EXPLAIN: No error â€” "the very numbers" (plural) correctly takes "were later proven".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The two accountants, both of whom denies | any wrongdoing, | have been | suspended pending inquiry | No error
+ANSWER: A
+RULE: 20
+EXPLAIN: Since "both of whom" refers to a plural antecedent, it should be "both of whom deny any wrongdoing".
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two whistleblowers involved in the case ____ possible retaliation ____ their employer.
+OPTIONS: face / from | faces / from | face / by | faces / by
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two whistleblowers" takes a singular verb ("faces"), and "retaliation from" is correct.
+%%%
+TYPE: FILL_BLANK
+Q: The very loopholes exploited in this scheme ____ identified years ago ____ an internal whistleblower.
+OPTIONS: was / by | were / by | was / from | were / from
+ANSWER: B
+RULE: 24, 58
+EXPLAIN: "The very loopholes" is plural ("were identified"), and "by" is used for the living agent.
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two competing lenders ____ slightly different interest ____ on the same loan.
+OPTIONS: offer / rates | offers / rates | offer / rate | offers / rate
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two competing lenders" takes a singular verb ("offers").
+%%%
+TYPE: IMPROVEMENT
+Q: Each of the two whistleblower accounts, though independently sourced, __corroborate the same timeline__ of events.
+OPTIONS: corroborates the same timeline | corroborate the same timelines | corroborates the same timelines | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Each of the two whistleblower accounts" takes a singular verb, requiring "corroborates".
+%%%
+TYPE: IMPROVEMENT
+Q: The two accountants, both of whom __denies any wrongdoing__, have been suspended pending inquiry.
+OPTIONS: deny any wrongdoing | denies any wrongdoings | deny any wrongdoings each | No improvement
+ANSWER: A
+RULE: 20
+EXPLAIN: "Both of whom" refers to a plural antecedent, requiring "deny".
+%%%
+TYPE: FILL_BLANK
+Q: The two accountants, both of whom ____ any wrongdoing, ____ been suspended pending inquiry.
+OPTIONS: deny / have | denies / have | deny / has | denies / has
+ANSWER: A
+RULE: 20
+EXPLAIN: "Both of whom" refers to a plural antecedent ("deny"), and "the two accountants" (plural) takes "have been suspended".
+%%%
+TYPE: SPOT_ERROR
+PARTS: A raft of internal memos, leaked to the press, | was enough | to trigger | a shareholder revolt | No error
+ANSWER: E
+RULE: 56
+EXPLAIN: No error â€” "a raft of" is treated as singular, correctly taking "was enough".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very safeguards this framework was designed to guarantee | were | quietly | diluted over time | No error
+ANSWER: E
+RULE: 24
+EXPLAIN: No error â€” "the very safeguards" (plural) correctly takes "were quietly diluted".
+%%%
+TYPE: FILL_BLANK
+Q: ____ of the two auditors assigned to the case ____ willing to sign off on the final report.
+OPTIONS: None / was | Neither / was | None / were | Neither / were
+ANSWER: B
+RULE: 114
+EXPLAIN: For exactly two auditors, "neither" is preferred over "none", and it takes the singular "was willing".
+%%%
+TYPE: SPOT_ERROR
+PARTS: This is one of the most complex fraud cases | that | the agency have | ever investigated | No error
+ANSWER: C
+RULE: 5
+EXPLAIN: "The agency" (singular) should take "has ever investigated", not "have".
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two whistleblower accounts, though independently sourced, ____ the same timeline ____ events.
+OPTIONS: corroborate / of | corroborates / of | corroborate / with | corroborates / with
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two whistleblower accounts" takes a singular verb ("corroborates"), and "timeline of events" is correct.
+%%%
+TYPE: MCQ
+Q: Choose the word OPPOSITE in meaning to "SURREPTITIOUS", as in "a surreptitious transfer of funds".
+OPTIONS: secretive | covert | open | clandestine
+ANSWER: C
+EXPLAIN: "Surreptitious" (secretive, hidden) is opposite to "open".
+%%%
+TYPE: SPOT_ERROR
+PARTS: A litter of minor discrepancies, each individually insignificant, | were collectively | enough | to trigger a full audit | No error
+ANSWER: E
+RULE: 56
+EXPLAIN: No error â€” "a litter of" (used figuratively) is treated with the plural "were collectively enough", acceptable since the discrepancies are each counted individually here.
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very clauses inserted to protect minority shareholders | remains | largely | unenforced in practice | No error
+ANSWER: B
+RULE: 24
+EXPLAIN: "The very clauses" is plural; it should be "remain largely unenforced in practice".
+%%%
+TYPE: IMPROVEMENT
+Q: This is one of the most complex fraud cases that __the agency have ever investigated__.
+OPTIONS: the agency has ever investigated | the agency have investigated ever | the agency has investigate ever | No improvement
+ANSWER: A
+RULE: 5
+EXPLAIN: "The agency" (singular) should take "has ever investigated".
+%%%
+TYPE: SPOT_ERROR
+PARTS: The very loopholes exploited in this scheme | was identified | years ago | by an internal whistleblower | No error
+ANSWER: B
+RULE: 24
+EXPLAIN: "The very loopholes" is plural; it should be "were identified years ago".
+%%%
+TYPE: IMPROVEMENT
+Q: The very loopholes exploited in this scheme __was identified years ago__ by an internal whistleblower.
+OPTIONS: were identified years ago | was identify years ago | were identifying years ago | No improvement
+ANSWER: A
+RULE: 24
+EXPLAIN: "The very loopholes" is plural, requiring "were identified".
+%%%
+TYPE: MCQ
+Q: Which sentence correctly combines "neither of the two" (not "none of") with the correct singular verb?
+OPTIONS: Neither of the two clerks were willing to admit the mistake | Neither of the two clerks was willing to admit the mistake | None of the two clerks was willing to admit the mistake | Neither of the two clerk was willing to admit the mistake
+ANSWER: B
+RULE: 114
+EXPLAIN: For exactly two people, "neither" is used (not "none"), correctly paired with the singular "was willing".
+%%%
+TYPE: MCQ
+Q: Identify the sentence that correctly combines "each of the two" agreement with the correct comparative structure.
+OPTIONS: Each of the two lenders offers a rate lower than the other | Each of the two lenders offer a rate lower than the other | Each of the two lenders offers a rate more low than the other | Each of the two lenders offer a rate more low than the other
+ANSWER: A
+RULE: 114, 36
+EXPLAIN: "Each of the two lenders" takes a singular verb ("offers"), and "lower" (the standard comparative) is correct, not "more low".
+%%%
+TYPE: SPOT_ERROR
+PARTS: A cache of incriminating emails, recovered from a deleted folder, | was presented | as | key evidence in court | No error
+ANSWER: E
+RULE: 56
+EXPLAIN: No error â€” "a cache of" is treated as singular, correctly taking "was presented".
+%%%
+TYPE: FILL_BLANK
+Q: Each of the two competing narratives, though contradictory, ____ to find supporters ____ analysts.
+OPTIONS: continue / among | continues / among | continue / between | continues / between
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two competing narratives" takes a singular verb ("continues"), and "among analysts" (more than two) is correct.
+%%%
+TYPE: IMPROVEMENT
+Q: Each of the two proposed clauses, though drafted separately, __serve the same underlying purpose__.
+OPTIONS: serves the same underlying purpose | serve the same underlying purposes | serves the same underlie purpose | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: "Each of the two proposed clauses" takes a singular verb, requiring "serves".
+%%%
+TYPE: IMPROVEMENT
+Q: __None of the two auditors assigned to the case was willing__ to sign off on the final report.
+OPTIONS: Neither of the two auditors assigned to the case was willing | None of the two auditors assigned to the case were willing | Neither of the two auditors assigned to the case were willing | No improvement
+ANSWER: A
+RULE: 114
+EXPLAIN: For exactly two people, "neither" is preferred over "none", correctly paired with the singular "was willing".
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two competing narratives, though contradictory, | continue | to find | supporters among analysts | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two competing narratives" takes a singular verb; it should be "continues to find supporters among analysts".
+%%%
+TYPE: MCQ
+Q: Select the correct ONE-WORD SUBSTITUTION for "a person who provides information about wrongdoing, often anonymously".
+OPTIONS: informant | whistleblower | witness | mole
+ANSWER: B
+EXPLAIN: A "whistleblower" is someone who exposes wrongdoing within an organisation.
+%%%
+TYPE: MCQ
+Q: Choose the word most nearly SIMILAR in meaning to "CORROBORATE", as in "the second witness corroborated the first account".
+OPTIONS: contradict | confirm | dispute | undermine
+ANSWER: B
+EXPLAIN: "Corroborate" means to support or confirm a statement or theory with evidence.
+%%%
+TYPE: MATCH
+Q: Match the idioms with their correct meanings.
+LEFT: 1. Blow the whistle | 2. Cover one's tracks | 3. Smoking gun
+RIGHT: P. Definitive evidence of guilt or wrongdoing | Q. To report wrongdoing to authorities | R. To hide evidence of one's own wrongdoing
+OPTIONS: 1-Q, 2-R, 3-P | 1-P, 2-Q, 3-R | 1-R, 2-P, 3-Q | 1-Q, 2-P, 3-R
+ANSWER: A
+EXPLAIN: "Blow the whistle" = report wrongdoing; "cover one's tracks" = hide evidence; "smoking gun" = definitive proof of guilt.
+%%%
+TYPE: SPOT_ERROR
+PARTS: Each of the two whistleblower accounts, though independently sourced, | corroborate | the same | timeline of events | No error
+ANSWER: B
+RULE: 114
+EXPLAIN: "Each of the two whistleblower accounts" takes a singular verb; it should be "corroborates the same timeline of events".
 %%%
 TYPE: FILL_BLANK
 Q: It is high time the regulator ____ strict action, lest the smaller cooperative banks ____ further under the liquidity crunch.
